@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wedding Bells\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-09 13:11+0100\n"
+"PO-Revision-Date: 2012-04-09 13:12+0100\n"
+"Last-Translator: Lauri Liimatta <lauri.liimatta@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12\n"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/404.php:8
+msgid "Error 404 - Not Found"
+msgstr "Virhe 404 - Sivua ei löydy"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/404.php:11
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Try one of the links in the main navigation above to continue."
+msgstr "Vaikuttaa siltä, että emme pysty löytämään mitä yritit etsiä. Jatkaaksesi kokeile jotain linkkiä yläpuolella olevasta navigaatiosta."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:11
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:11
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Arkisto: %s"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:13
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:13
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Arkisto: %s"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:13
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:13
+msgid "F Y"
+msgstr "F Y"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:15
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:15
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Arkisto: %s"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:15
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:15
+msgid "Y"
+msgstr "Y"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:17
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:17
+msgid "Archives"
+msgstr "Arkistot"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:35
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:23
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/search.php:25
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:35
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:31
+msgid "&larr; Older Entries"
+msgstr "&larr; Vanhemmat merkinnät"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:36
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:24
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/search.php:26
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:36
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:32
+msgid "Newer Entries &rarr;"
+msgstr "Uudemmat merkinnät &rarr;"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:41
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:32
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:40
+msgid "Not Found"
+msgstr "Sivua ei löydetty"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:2
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Tämä viesti on salasanalla suojattu. Syötä salasana lukeaksesi kommentteja."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:20
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:31
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vanhemmat Kommentit"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:21
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:32
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Uudemmat Kommentit <span class=\"meta-nav\">&rarr;</span>"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:44
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/footer.php:33
+msgid "Back to top &uarr;"
+msgstr "Takaisin ylös &uarr;"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/header.php:68
+msgid "Home"
+msgstr "Etusivu"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:14
+msgid "Read the rest of this entry &raquo;"
+msgstr "Lue lisää &raquo;"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:17
+msgid "Tags: "
+msgstr "Tagit: "
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:17
+msgid "Posted in"
+msgstr "Kategoria:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:17
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:25
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:34
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:42
+msgid "Sorry, but you are looking for something that isn&rsquo;t here."
+msgstr "Pahoitteluni, mutta hakusi ei tuottanut yhtään tulosta."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/page.php:15
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single-photoblog.php:16
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single.php:15
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-page-fullwidth.php:23
+msgid "Edit this entry."
+msgstr "Muokkaa tätä merkintää."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/page.php:17
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single.php:19
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-page-fullwidth.php:21
+msgid "<p><strong>Pages:</strong> "
+msgstr "<p><strong>Sivut:</strong>"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/search.php:30
+msgid "No posts found. Try a different search?"
+msgstr "Hakusi ei tuottanut yhtään tulosta. Haluatko kokeilla uudestaan?"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/searchform.php:3
+msgid "Search"
+msgstr "Etsi"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single-photoblog.php:20
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single.php:17
+msgid "<p class=\"tags\">Tags: "
+msgstr "<p class=\"tags\">Tagit: "
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single-photoblog.php:28
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single.php:29
+msgid "Sorry, no posts matched your criteria."
+msgstr "Pahoitteluni, mutta kyseisellä kriteerillä ei löydetty yhtään kirjoitusta."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:41
+msgid "No Photoblog Categories Found"
+msgstr "Kuvablogi Kategoriaa ei löydetty"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:25
+msgid "Categories: "
+msgstr "Kategoria: "
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:13
+msgid "A widget for your 125x125 ads."
+msgstr "Vimpain 125x125 kokoisille mainoksille."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:17
+msgid "Ads 125x125 Widget"
+msgstr "Mainosvimpain 125x125"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:93
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:95
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:96
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:98
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:99
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:101
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:102
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:104
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:260
+msgid "http://"
+msgstr "http://"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:111
+msgid "Add rel=nofollow to ad URLs?"
+msgstr "Lisää rel=nofollow mainoksien osoitteeseen?"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:116
+msgid "Ad #1 Image URL:"
+msgstr "Mainos #1 kuvan URL:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:121
+msgid "Ad #1 Image alt text:"
+msgstr "Mainos #1 kuvan alt-teksti:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:126
+msgid "Ad #1 URL:"
+msgstr "Mainos #1:n URL:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:132
+msgid "Ad #2 Image URL:"
+msgstr "Mainos #2 kuvan URL:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:137
+msgid "Ad #2 Image alt text:"
+msgstr "Mainos #2 kuvan alt-teksti:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:142
+msgid "Ad #2 URL:"
+msgstr "Mainos #2:n URL:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:148
+msgid "Ad #3 Image URL:"
+msgstr "Mainos #3 kuvan URL:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:153
+msgid "Ad #3 Image alt text:"
+msgstr "Mainos #3 kuvan alt-teksti:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:158
+msgid "Ad #3 URL:"
+msgstr "Mainos #3:n URL"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:164
+msgid "Ad #4 Image URL:"
+msgstr "Mainos #4 kuvan URL:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:169
+msgid "Ad #4 Image alt text:"
+msgstr "Mainos #4 kuvan alt-teksti:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:174
+msgid "Ad #4 URL:"
+msgstr "Mainos #4:n URL:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:198
+msgid "A widget for your Facebook, Twitter and RSS links."
+msgstr "Vimpain Facebook, Twitter ja RSS linkeille."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:204
+msgid "Social Media Widget"
+msgstr "Sosiaalinen Media Vimpain"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:223
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:227
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:231
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:264
+msgid "Your Facebook address:"
+msgstr "Facebook-osoitteesi:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:269
+msgid "Your Twitter address:"
+msgstr "Twitter-osoitteesi:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:274
+msgid "Your RSS feed address:"
+msgstr "RSS-osoitteesi:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:296
+msgid "The most recent photoblog posts on your site"
+msgstr "Uusimmat kuvablogi merkinnät sivustollasi"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:297
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:319
+msgid "Recent Photoblog Posts"
+msgstr "Viimeisimmät kuvablogaukset"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:370
+msgid "Title:"
+msgstr "Otsikko:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:373
+msgid "Number of photoblog posts to show:"
+msgstr "Kuinka monta kuvablogi merkintää näytetään:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:29
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:116
+msgid " Options"
+msgstr " Asetukset"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:31
+msgid "Style Settings"
+msgstr "Tyyliasetukset"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:33
+msgid "Typography set"
+msgstr "Typografia"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:34
+msgid "Default = Serif headings, Sans-serif paragraphs<br /> Flipped = Sans-serif headings, Serif paragraphs"
+msgstr "Default = Serif otsikot, Sans-serif paragraafit<br /> Flipped = Sans-serif otsikotit, Serif paragraafit"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:41
+msgid "Header Settings"
+msgstr "Yläosan asetukset"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:43
+msgid "Upload logo"
+msgstr "Lisää logo"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:44
+msgid "Upload a logo. This will replace the site name/tagline."
+msgstr "Lisää logo. Logo korvaa sivuston nimen ja kuvauksen."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:51
+msgid "Hide Tagline"
+msgstr "Piilota sivuston kuvaus"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:52
+msgid "Check to disable the site description/tagline text."
+msgstr "Ruksita piilottaaksesi sivuston tagline."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:57
+msgid "Header Slider"
+msgstr "Kuvakaruselli"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:58
+msgid "Check to enable a slider that will replace the header image."
+msgstr "Ruksita aktivoidaksesi kuvakaruselli, joka korvaa staattisen pääkuvan."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:64
+msgid "Misc Settings"
+msgstr "Muut asetukset"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:66
+msgid "Upload favicon"
+msgstr "Lisää favicon"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:71
+msgid "Google Analytics Code"
+msgstr "Google Analytics -koodi"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:72
+msgid "Paste your Google Analytics or other tracking code in this box."
+msgstr "Liitä Google Analytics tai muu seurantakoodi tähän laatikkoon."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:116
+msgid "Theme Options"
+msgstr "Teeman asetukset"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:133
+msgid "Theme Setting Help"
+msgstr "Teema asetukset apu"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:134
+msgid "Descriptive content that will show in My Help Tab-body goes here."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:143
+msgid "settings saved."
+msgstr "asetukset tallennettu."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:144
+msgid "settings reset."
+msgstr "asetukset nollattu."
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:150
+msgid "Settings"
+msgstr "Asetukset"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:235
+msgid "Upload"
+msgstr "Siirrä"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:263
+msgid "Save changes"
+msgstr "Tallenna muutokset"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:270
+msgid "Reset"
+msgstr "Tyhjennä asetukset"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:7
+msgid "Photoblogs"
+msgstr "Kuvablogi"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:8
+msgid "Photoblog post"
+msgstr "Kuvablogi merkintä"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:9
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:10
+msgid "Add New"
+msgstr "Lisää uusi"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:10
+msgid "Add New Photoblog post"
+msgstr "Lisää uusi kuvablogi merkintä"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:11
+msgid "Edit Photoblog post"
+msgstr "Muokkaa kuvablogin merkintää"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:12
+msgid "New Photoblog post"
+msgstr "Uusi kuvablogin merkintä"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:13
+msgid "View Photoblog post"
+msgstr "Katsele kuvanblogin merkintää"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:14
+msgid "Search Photoblog"
+msgstr "Etsi kuvablogista"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:15
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:16
+msgid "Nothing found"
+msgstr "Ei tuloksia"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:16
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:17
+msgid "Nothing found in Trash"
+msgstr "Roskakori on tyhjä"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:46
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:56
+msgid "Photoblog Categories"
+msgstr "Kuvablogin kategoriat"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:47
+msgid "Photoblog Category"
+msgstr "Kuvablogin kategoria"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:48
+msgid "Search Photoblog Categories"
+msgstr "Etsi kuvablogin kategorioita"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:49
+msgid "All Photoblog Categories"
+msgstr "Kaikki kuvablogin kategoriat"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:50
+msgid "Parent Photoblog Category"
+msgstr "Kuvablogin emokategoria"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:51
+msgid "Parent Photoblog Category:"
+msgstr "Kuvablogin emokategoria:"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:52
+msgid "Edit Photoblog Category"
+msgstr "Muokkaa kuvablogin kategoriaa"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:53
+msgid "Update Photoblog Category"
+msgstr "Päivitä kuvablogin kategoriaa"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:54
+msgid "Add New Photoblog Category"
+msgstr "Lisää uusi kuvablogin kategoria"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:55
+msgid "New Photoblog Category Name"
+msgstr "Uusi kuvablogin kategorian nimi"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:78
+msgid "Upload a photo to this post"
+msgstr "Lisää kuva tähän merkintään"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:8
+msgid "Slides"
+msgstr "Karuselli"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:9
+msgid "Slides post"
+msgstr "Karusellin kuva"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:11
+msgid "Add New Slide"
+msgstr "Lisää uusi kuva"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:12
+msgid "Edit Slide"
+msgstr "Muokkaa kuvaa"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:13
+msgid "New Slide"
+msgstr "Uusi kuva"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:14
+msgid "View Slide"
+msgstr "Katsele kuvaa"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:15
+msgid "Search Slides"
+msgstr "Etsi kuvia"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:46
+msgid "Upload a photo to this slide"
+msgstr "Lisää kuva"
+
+#~ msgid "Default"
+#~ msgstr "Oletus"
+
+#~ msgid "Flipped"
+#~ msgstr "Käännetty"

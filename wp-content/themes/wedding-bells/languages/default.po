@@ -1,0 +1,488 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wedding Bells\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-09 13:11+0100\n"
+"PO-Revision-Date: 2012-04-09 13:11+0100\n"
+"Last-Translator: Lauri Liimatta <lauri.liimatta@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12\n"
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/404.php:8
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/404.php:11
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Try one of the links in the main navigation above to continue."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:11
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:11
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:13
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:13
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:15
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:15
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:17
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:17
+msgid "Archives"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:35
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:23
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/search.php:25
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:35
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:31
+msgid "&larr; Older Entries"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:36
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:24
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/search.php:26
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:36
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:32
+msgid "Newer Entries &rarr;"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/archive.php:41
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:32
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:40
+msgid "Not Found"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:2
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:20
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:31
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:21
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:32
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/footer.php:33
+msgid "Back to top &uarr;"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/header.php:68
+msgid "Home"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:14
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:17
+msgid "Tags: "
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:17
+msgid "Posted in"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:17
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:25
+msgid "Edit"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/index.php:34
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:42
+msgid "Sorry, but you are looking for something that isn&rsquo;t here."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/page.php:15
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single-photoblog.php:16
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single.php:15
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-page-fullwidth.php:23
+msgid "Edit this entry."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/page.php:17
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single.php:19
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-page-fullwidth.php:21
+msgid "<p><strong>Pages:</strong> "
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/search.php:30
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single-photoblog.php:20
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single.php:17
+msgid "<p class=\"tags\">Tags: "
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single-photoblog.php:28
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/single.php:29
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/taxonomy-photoblog-cats.php:41
+msgid "No Photoblog Categories Found"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/template-photoblog-frontpage.php:25
+msgid "Categories: "
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:13
+msgid "A widget for your 125x125 ads."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:17
+msgid "Ads 125x125 Widget"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:93
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:95
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:96
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:98
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:99
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:101
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:102
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:104
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:260
+msgid "http://"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:111
+msgid "Add rel=nofollow to ad URLs?"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:116
+msgid "Ad #1 Image URL:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:121
+msgid "Ad #1 Image alt text:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:126
+msgid "Ad #1 URL:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:132
+msgid "Ad #2 Image URL:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:137
+msgid "Ad #2 Image alt text:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:142
+msgid "Ad #2 URL:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:148
+msgid "Ad #3 Image URL:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:153
+msgid "Ad #3 Image alt text:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:158
+msgid "Ad #3 URL:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:164
+msgid "Ad #4 Image URL:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:169
+msgid "Ad #4 Image alt text:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:174
+msgid "Ad #4 URL:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:198
+msgid "A widget for your Facebook, Twitter and RSS links."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:204
+msgid "Social Media Widget"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:223
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:227
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:231
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:264
+msgid "Your Facebook address:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:269
+msgid "Your Twitter address:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:274
+msgid "Your RSS feed address:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:296
+msgid "The most recent photoblog posts on your site"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:297
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:319
+msgid "Recent Photoblog Posts"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:370
+msgid "Title:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/custom-widgets.php:373
+msgid "Number of photoblog posts to show:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:29
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:116
+msgid " Options"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:31
+msgid "Style Settings"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:33
+msgid "Typography set"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:34
+msgid "Default = Serif headings, Sans-serif paragraphs<br /> Flipped = Sans-serif headings, Serif paragraphs"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:41
+msgid "Header Settings"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:43
+msgid "Upload logo"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:44
+msgid "Upload a logo. This will replace the site name/tagline."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:51
+msgid "Hide Tagline"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:52
+msgid "Check to disable the site description/tagline text."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:57
+msgid "Header Slider"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:58
+msgid "Check to enable a slider that will replace the header image."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:64
+msgid "Misc Settings"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:66
+msgid "Upload favicon"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:71
+msgid "Google Analytics Code"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:72
+msgid "Paste your Google Analytics or other tracking code in this box."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:116
+msgid "Theme Options"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:133
+msgid "Theme Setting Help"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:134
+msgid "Descriptive content that will show in My Help Tab-body goes here."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:143
+msgid "settings saved."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:144
+msgid "settings reset."
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:150
+msgid "Settings"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:235
+msgid "Upload"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:263
+msgid "Save changes"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-options.php:270
+msgid "Reset"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:7
+msgid "Photoblogs"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:8
+msgid "Photoblog post"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:9
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:10
+msgid "Add New"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:10
+msgid "Add New Photoblog post"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:11
+msgid "Edit Photoblog post"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:12
+msgid "New Photoblog post"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:13
+msgid "View Photoblog post"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:14
+msgid "Search Photoblog"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:15
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:16
+msgid "Nothing found"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:16
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:17
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:46
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:56
+msgid "Photoblog Categories"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:47
+msgid "Photoblog Category"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:48
+msgid "Search Photoblog Categories"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:49
+msgid "All Photoblog Categories"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:50
+msgid "Parent Photoblog Category"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:51
+msgid "Parent Photoblog Category:"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:52
+msgid "Edit Photoblog Category"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:53
+msgid "Update Photoblog Category"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:54
+msgid "Add New Photoblog Category"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:55
+msgid "New Photoblog Category Name"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-photoblog.php:78
+msgid "Upload a photo to this post"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:8
+msgid "Slides"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:9
+msgid "Slides post"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:11
+msgid "Add New Slide"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:12
+msgid "Edit Slide"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:13
+msgid "New Slide"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:14
+msgid "View Slide"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:15
+msgid "Search Slides"
+msgstr ""
+
+#: /Users/lauriliimatta/Sites/htdocs/themetest/wp-content/themes/wedding-bells-12/includes/theme-slider.php:46
+msgid "Upload a photo to this slide"
+msgstr ""
+
