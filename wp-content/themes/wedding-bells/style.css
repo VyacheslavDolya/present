@@ -9,7 +9,6 @@ Tags: light, blue, white, two-columns, custom-header, threaded-comments
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -38,10 +37,15 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #f2f7fe;
+	background-image: url("./images/bg-texture1.jpg");
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
+        font-family:Arial,Helvetica,sans-serif;
+}
+.wrapper{
+    background-image: url("./images/top_bg.jpg");
+    background-repeat: repeat-x;
 }
 a {
 	color: #00AFE7;
@@ -60,9 +64,9 @@ h6 { font-size: 1.3em; }
 
 #shadow {
 	background: #fff;
-	box-shadow: 0 0 1em #e3eaf4;
+	/*box-shadow: 0 0 1em #e3eaf4;
 	-moz-box-shadow: 0 0 1em #e3eaf4;
-	-webkit-box-shadow: 0 0 1em #e3eaf4;	
+	-webkit-box-shadow: 0 0 1em #e3eaf4;*/
 }
 #header {
 	position: relative;
@@ -96,16 +100,47 @@ h6 { font-size: 1.3em; }
 	border-top: 1px solid #d2e1f1;
 	border-bottom: 1px solid #e4ecf9;
 }
-
+.names{
+    background: url("images/header_texture.jpg") no-repeat scroll center top transparent;
+    height: 190px;
+    width: 100%;
+}
+.names .title{
+    font-family: 'Great Vibes',cursive;
+    font-size: 72px;
+    margin: 0;
+    padding: 55px 0 10px;
+    text-align: center;
+}
+.names .title a{
+    color:#4C402B;
+    text-decoration: none;
+}
+.names .description{
+    color:#E8A900;
+    display: block;
+    font-family: 'Great Vibes',cursive;
+    font-size: 24px;
+    margin: auto;
+    text-align: center;
+}
+.names .description .swirl_left{
+    background: url("images/swirl_left.png") no-repeat scroll left center transparent;
+    padding: 0 0 0 50px;
+}
+.names .description .swirl_right{
+    background: url("images/swirl_right.png") no-repeat scroll right center transparent;
+    padding: 0 50px 0 0;
+}
 /* menu styles */
 #navrow {
 	margin-bottom: 0 !important;
-    background-color: #e5edf7; /* fallback color */
-    background-image: url('images/menubg.jpg') repeat-x; /* fallback image */
-    background-image: -moz-linear-gradient(100% 100% 90deg, #eaf1f9, #f4f9ff);
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f4f9ff), to(#eaf1f9));
-	border-top: 1px solid #e4ecf9;
-	border-bottom: 1px solid #fff;
+    /*background-color: #e5edf7;*/ /* fallback color */
+    /*background-image: url('images/menubg.jpg') repeat-x;*/ /* fallback image */
+    /*background-image: -moz-linear-gradient(100% 100% 90deg, #eaf1f9, #f4f9ff);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f4f9ff), to(#eaf1f9));*/
+	/*border-top: 1px solid #e4ecf9;*/
+	/*border-bottom: 1px solid #fff;*/
 }
 #nav {
 	list-style: none;
@@ -120,20 +155,24 @@ h6 { font-size: 1.3em; }
 	float: left;
 	display: block;
 	text-decoration: none;
-	color: #4a4893;
+	color: #FFF;
 	font-weight: bold;
 	font-size: 1.4em;
+        font-family: 'Ovo',serif;
 	padding: 18px 23px;
 }
+
 #nav li a:hover,
-#nav li.current-menu-item a {
-	color: #2e2c6a;
+#nav li.current_page_item a {
+	color: #E8A900;
 	text-decoration: none;
 	background-color: rgb(243, 247, 253);
 	background-color: rgba(255, 255, 255, 0.4);
 	border-right: 1px solid #e0eaf5;
 	border-left: 1px solid #e0eaf5;
 	padding: 18px 22px;
+        font-family: 'Ovo',serif;
+        background: url("images/menu_bullet.gif") no-repeat scroll center bottom transparent;
 }
 #nav ul {
 	display: none;
@@ -167,13 +206,52 @@ h6 { font-size: 1.3em; }
 	margin: 30px 20px 30px 20px;
 	border-bottom: 1px solid #e4ecf9;
 }
+.home_title{
+    background: url("images/divider.jpg") no-repeat scroll center bottom transparent;
+    /*margin: 0 auto auto;*/
+    padding: 0 0 55px;
+}
+.home_title h2{
+    float: left;
+    font-family: 'Ovo',serif;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    margin: 0;
+    padding: 5px 0 0;
+}
+.home_title h2 span{
+    color: #E8A900;
+}
+
+#content .pages_title{
+    background: url("images/page_titles_bg.png") no-repeat scroll center center transparent;
+    clear: both;
+    float: left;
+    height: 77px;
+    line-height: 100px;
+    padding: 0 0 0 20px;
+    margin: 0 0 0 20px;
+    width: 900px;
+}
+#content .pages_title h2{
+    font-size: 25px;
+    color: #53462E;
+    padding: 0 0 5px;
+    font-weight: normal;
+    font-family: 'Ovo',serif;
+}
 .post h2 {
 	line-height: 32px;
 	font-weight: normal;
 	margin-bottom: 5px;
+        background: url("images/title_bg.png") no-repeat scroll center left transparent;
+        width: 279px;
+        text-align: center;
 }
 .post h2 a {
-	color: #3f2274;
+	color: #53462E;
+        font-weight: normal;
+        font-family: 'Ovo',serif;
 }
 .post small {
 	font-size: 1.2em;

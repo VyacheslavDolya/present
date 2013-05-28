@@ -29,11 +29,31 @@
 <?php wp_head(); ?>
 
 <?php echo stripslashes(get_option('wb_ga_code')); // Google Analytics or other embed ?>
+<link href='http://fonts.googleapis.com/css?family=Ovo|Great+Vibes' rel='stylesheet' type='text/css'>
 </head>
 
 <body <?php body_class(); ?>>
-
+<div class="wrapper">
+    <div class="row container" id="navrow">
+            <?php if ( has_nav_menu( 'primary-menu' ) ) { ?>
+                    <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'theme_location' => 'primary-menu', 'container_class' => 'sixteen columns navwrap', 'menu_id' => 'nav' ) ); ?>
+            <?php } else { ?>
+                    <div class="sixteen navwrap columns">
+                            <ul id="nav">
+                                <li class="<?php if(is_home() || is_front_page()){ echo 'current_page_item'; }?>"><a href="<?php echo home_url(); ?>/"><?php _e('Home', 'weddingbells'); ?></a></li>
+                                    <?php wp_list_pages('title_li='); ?>
+                            </ul>
+                    </div><!-- 16/menulist -->
+            <?php } ?>
+    </div><!-- row -->
 <div class="container" id="shadow">
+
+    
+
+    <div class="names">
+     <div class="title"><a href="<?php echo home_url(); ?>">Michael &amp; Sarah</a></div>
+     <div class="description"><span class="swirl_left"><span class="swirl_right">15 june 2013</span></span></div>
+    </div>
 
 	<div id="header">	
 		<?php if (get_option('wb_enable_slider')) { // Slider ?>
@@ -48,26 +68,20 @@
 		<?php } else { // Regular header image ?>
 			<img src="<?php header_image(); ?>" alt="Header" />
 		<?php } ?>
-	
-		<div class="title-description">
-			<?php if (get_option('wb_uploadlogo')) { // Logo ?>
-				<a href="<?php echo home_url(); ?>"><img src="<?php echo get_option('wb_uploadlogo'); ?>" alt="logo" /></a>
-			<?php } else { ?>
-				<h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-				<?php if (!get_option('wb_disable_tagline')) { ?><h2><?php bloginfo('description'); ?></h2><?php } // Show or hide tagline ?>
-			<?php } ?>
-		</div><!-- title-description -->		
+		
 	</div><!-- #header -->
-	
-	<div class="row" id="navrow">
-		<?php if ( has_nav_menu( 'primary-menu' ) ) { ?>
-			<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'theme_location' => 'primary-menu', 'container_class' => 'sixteen columns navwrap', 'menu_id' => 'nav' ) ); ?>
-		<?php } else { ?>
-			<div class="sixteen navwrap columns">
-				<ul id="nav">
-					<li><a href="<?php echo home_url(); ?>/"><?php _e('Home', 'weddingbells'); ?></a></li>
-					<?php wp_list_pages('title_li='); ?>
-				</ul>
-			</div><!-- 16/menulist -->
-		<?php } ?>
-	</div><!-- row -->
+<?php if(is_home() || is_front_page()):?>
+        <div class="home_title">
+                <?php if (get_option('wb_uploadlogo')) { // Logo ?>
+                        <a href="<?php echo home_url(); ?>"><img src="<?php echo get_option('wb_uploadlogo'); ?>" alt="logo" /></a>
+                <?php } else { ?>
+                        <h2>
+                            <?php bloginfo('name'); ?>
+                            <span>
+                                <?php if (!get_option('wb_disable_tagline')) { ?><?php bloginfo('description'); ?><?php } // Show or hide tagline ?>
+                            </span>
+                        </h2>
+                        
+                <?php } ?>
+        </div><!-- title-description -->
+<?php endif;?>
