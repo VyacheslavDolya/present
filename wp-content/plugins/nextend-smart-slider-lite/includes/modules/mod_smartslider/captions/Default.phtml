@@ -1,0 +1,16 @@
+<div class="defaultcaption animated">
+<% if(paramcaptiontitle != ''){ %>
+  <div style="margin-top:{param text "Top" "4%"};" class="defaultcaption-title">{param text "Title"}</div>
+<% } %>
+<% if(paramcaptiondescription != ''){ %>
+<div class="defaultcaption-description">{param textarea "Description" ""}</div>
+<% } %>
+</div>
+<script type="text/javascript">
+var caption = {
+  type: "default",
+  interval: {param text "Animation interval" "1000"},
+  delay: {param text "Animation delay" "0" "in ms"},
+  easing: "{param easing "Animation easing"}"
+};
+</script>

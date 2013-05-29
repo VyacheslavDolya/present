@@ -1,0 +1,35 @@
+body div.toolbar-list li a,
+body div.toolbar-list li a:HOVER,
+body div.toolbar-list li a:FOCUS,
+body div.toolbar-list li a:ACTIVE{
+  border: 0;
+}
+
+body div.toolbar-list li:ACTIVE,
+body div.toolbar-list li a:HOVER{
+  background: none;
+}
+
+body div.toolbar-list li{
+  margin-right: 10px;
+}
+
+#toolbar-popup-options,
+#Slider-help{
+  display: none;
+}
+
+.jPicker .Button input,
+.jPicker .Button hr{
+  float: none;
+}
+
+.jPicker textarea, 
+.jPicker input, 
+.jPicker select{
+  padding: 0;
+}
+
+#paramsordering{
+  height: auto;
+}

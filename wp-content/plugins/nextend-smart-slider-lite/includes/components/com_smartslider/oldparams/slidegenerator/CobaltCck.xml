@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <name>Cobalt CCK</name>
+  <img>cobaltcck.png</img>
+  <params>
+    <param name="generatortypes" type="cobalttypes" default="" label="Select a type"/>
+    <param name="generatorsection" type="cobaltsections" default="" label="Section filter"/>
+    <param name="generatorfilter1" type="offlajncombine" default="0|*|=|*|" label="Filter #1">
+      <param label="Key" type="nextendcckcriterion">
+        <option value="0">Disabled</option>
+      </param>
+      <param label="Criterion" type="offlajnlist">
+        <option value="=">=</option>
+        <option value="!=">!=</option>
+        <option value="&lt;">&lt;</option>
+        <option value="&lt;=">&lt;=</option>
+        <option value="&gt;">&gt;</option>
+        <option value="&gt;=">&gt;=</option>
+        <option value="LIKE">LIKE</option>
+        <option value="NOT LIKE">NOT LIKE</option>
+      </param>
+      <param label="Value" type="offlajntext" />
+    </param>
+    <param name="generatorfilter2" type="offlajncombine" default="0|*|=|*|" label="Filter #2">
+      <param label="Key" type="nextendcckcriterion">
+        <option value="0">Disabled</option>
+      </param>
+      <param label="Criterion" type="offlajnlist">
+        <option value="=">=</option>
+        <option value="!=">!=</option>
+        <option value="&lt;">&lt;</option>
+        <option value="&lt;=">&lt;=</option>
+        <option value="&gt;">&gt;</option>
+        <option value="&gt;=">&gt;=</option>
+        <option value="LIKE">LIKE</option>
+        <option value="NOT LIKE">NOT LIKE</option>
+      </param>
+      <param label="Value" type="offlajntext" />
+    </param>
+    <param name="generatorfilter3" type="offlajncombine" default="0|*|=|*|" label="Filter #3">
+      <param label="Key" type="nextendcckcriterion">
+        <option value="0">Disabled</option>
+      </param>
+      <param label="Criterion" type="offlajnlist">
+        <option value="=">=</option>
+        <option value="!=">!=</option>
+        <option value="&lt;">&lt;</option>
+        <option value="&lt;=">&lt;=</option>
+        <option value="&gt;">&gt;</option>
+        <option value="&gt;=">&gt;=</option>
+        <option value="LIKE">LIKE</option>
+        <option value="NOT LIKE">NOT LIKE</option>
+      </param>
+      <param label="Value" type="offlajntext" />
+    </param>
+    <param name="generatorfilter4" type="offlajncombine" default="0|*|=|*|" label="Filter #4">
+      <param label="Key" type="nextendcckcriterion">
+        <option value="0">Disabled</option>
+      </param>
+      <param label="Criterion" type="offlajnlist">
+        <option value="=">=</option>
+        <option value="!=">!=</option>
+        <option value="&lt;">&lt;</option>
+        <option value="&lt;=">&lt;=</option>
+        <option value="&gt;">&gt;</option>
+        <option value="&gt;=">&gt;=</option>
+        <option value="LIKE">LIKE</option>
+        <option value="NOT LIKE">NOT LIKE</option>
+      </param>
+      <param label="Value" type="offlajntext" />
+    </param>
+    <param name="generatorfilter5" type="offlajncombine" default="0|*|=|*|" label="Filter #5">
+      <param label="Key" type="nextendcckcriterion">
+        <option value="0">Disabled</option>
+      </param>
+      <param label="Criterion" type="offlajnlist">
+        <option value="=">=</option>
+        <option value="!=">!=</option>
+        <option value="&lt;">&lt;</option>
+        <option value="&lt;=">&lt;=</option>
+        <option value="&gt;">&gt;</option>
+        <option value="&gt;=">&gt;=</option>
+        <option value="LIKE">LIKE</option>
+        <option value="NOT LIKE">NOT LIKE</option>
+      </param>
+      <param label="Value" type="offlajntext" />
+    </param>
+    <param name="generatorordering" type="offlajnlist" default="ctime" label="Order by">
+      <option value="ctime">Publish date</option>
+      <option value="hits">Hits</option>
+      <option value="featured">Featured</option>
+      <option value="random">Random</option>
+    </param>
+    <param name="generatororder" type="offlajnlist" default="desc" label="Order">
+      <option value="desc">Descending</option>
+      <option value="asc">Ascending</option>
+    </param>
+    <param name="generatorslidenumber" type="offlajntext" default="" label="Number of slides" description="Number of the slides"/>
+    <param name="generatorslidegenerate" type="offlajnonoff" default="0" label="Generates slides" description="Generates the slides">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </param>
+  </params>
+  <settings>
+    <component>com_cobalt</component>
+    <allowedtemplates>
+      <allowedtemplate>onecolumn</allowedtemplate>
+      <allowedtemplate>twocolumn</allowedtemplate>
+      <allowedtemplate>threecolumn</allowedtemplate>
+      <allowedtemplate>leftproductrightdescription</allowedtemplate>
+      <allowedtemplate>leftdescriptionrightproduct</allowedtemplate>
+      <allowedtemplate>linkandbackground</allowedtemplate>
+    </allowedtemplates>
+    
+    <editablefields>
+      <editablefield>contentheadingtargetwindow</editablefield>
+      <editablefield>contenttagtargetwindow</editablefield>
+      <editablefield>contentreadmoretargetwindow</editablefield>
+      <editablefield>captionheightoftheopenedcaption</editablefield>
+      <editablefield>captionwidthoftheopenedcaption</editablefield>
+      <editablefield>captionshowanimationeasing</editablefield>
+      <editablefield>captionhideanimationeasing</editablefield>
+      <editablefield>captionanimationeasing</editablefield>
+      <editablefield>captionwidthofthetitleinpx</editablefield>
+      <editablefield>captiontopcoordinateofthetag</editablefield>
+      <editablefield>captionhtmleditor</editablefield>
+      <editablefield>captionanimationinterval</editablefield>
+      <editablefield>captionopencaption</editablefield>
+      <editablefield>captioncontentwidth</editablefield>
+      <editablefield>captionfirstpropertytoanimate</editablefield>
+      <editablefield>captiontagfirstpropertystartvalue</editablefield>
+      <editablefield>captiontagfirstpropertytargetvalue</editablefield>
+      <editablefield>captioncontentfirstpropertystartvalue</editablefield>
+      <editablefield>captioncontentfirstpropertytargetvalue</editablefield>
+      <editablefield>captionsecondpropertytoanimate</editablefield>
+      <editablefield>captiontagsecondpropertystartvalue</editablefield>
+      <editablefield>captiontagsecondpropertytargetvalue</editablefield>
+      <editablefield>captioncontentsecondpropertystartvalue</editablefield>
+      <editablefield>captioncontentsecondpropertytargetvalue</editablefield>
+      <editablefield>captionthirdstaticproperty</editablefield>
+      <editablefield>captiontagthirdpropertyvalue</editablefield>
+      <editablefield>captioncontentthirdpropertyvalue</editablefield>
+      <editablefield>captiontaganimationinterval</editablefield>
+      <editablefield>captiontaganimationdelay</editablefield>
+      <editablefield>captiontaganimationeasing</editablefield>
+      <editablefield>captioncontentanimationinterval</editablefield>
+      <editablefield>captioncontentanimationdelay</editablefield>
+      <editablefield>captioncontentanimationeasing</editablefield>
+      <editablefield>captionanimationdelay</editablefield>
+      <editablefield>contentimagewidth</editablefield>
+      <editablefield>contentimageheight</editablefield>
+    </editablefields>
+    
+    <deniedfields>
+    </deniedfields>
+    
+    <contentpositions>     
+      <contentposition>Slide title</contentposition>
+      <contentposition>Content Heading</contentposition>
+      <contentposition>Content Heading url</contentposition>
+      <contentposition>Content Subheading</contentposition>
+      <contentposition>Content First tag url</contentposition>
+      <contentposition>Content First tag text</contentposition>
+      <contentposition>Content Second tag url</contentposition>
+      <contentposition>Content Second tag text</contentposition>
+      <contentposition>Content Third tag url</contentposition>
+      <contentposition>Content Third tag text</contentposition>
+      <contentposition>Content First column content</contentposition>
+      <contentposition>Content Second column content</contentposition>
+      <contentposition>Content Third column content</contentposition>
+      <contentposition>Content Read more url</contentposition>
+      <contentposition>Content Read more text</contentposition>
+      <contentposition>Content Image url</contentposition>
+      <contentposition>Content Content</contentposition>
+      <contentposition>Content Background Image Url</contentposition>
+      <contentposition>Content Link for image</contentposition>
+    </contentpositions>
+    
+    <contentvalues>
+    </contentvalues>
+    
+    <captionpositions>
+      <captionposition>Caption Tag</captionposition>
+      <captionposition>Caption Caption Tag</captionposition>
+      <captionposition>Caption Caption Title</captionposition>
+      <captionposition>Caption Description</captionposition>
+    </captionpositions>
+    
+    <showcaptions>1</showcaptions>
+    <showtitle>1</showtitle>
+    
+    <defaultcontents>
+      <slidetitle>title</slidetitle>
+      <contentheading>title</contentheading>
+    </defaultcontents>
+    
+    <defaultcaptions>
+      <captioncaptiontitle>title</captioncaptiontitle>
+    </defaultcaptions>
+    
+  </settings>
+</config>

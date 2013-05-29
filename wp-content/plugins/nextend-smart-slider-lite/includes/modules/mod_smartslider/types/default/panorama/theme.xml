@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <name>Accordion Horizontal Elegant Theme</name>
+  <params>
+    <param name="skin" theme="accordion_horizontal_elegant" type="offlajnskin" default="minimal" size="5" label="Skin" description="">
+      <minimal>
+        <tabbg>ffffff|*|188DD9</tabbg>        
+        <headingfont>{"Heading":{"type":"Latin","family":"PT Sans","subset":"Latin","size":"30||px","color":"188DD9","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"normal"}, "Subheading":{"color":"3E3E3E","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","size":"15||px","bold":"0","italic":"1"}}</headingfont>
+        <paragraphfont>{"Paragraph":{"type":"Latin","family":"PT Sans","subset":"Latin","size":"14||px","color":"3e3e3e","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"18px"},"Link":{"color":"188dd9"},"Tag":{"color":"e4eaee","bold":"1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|","lineheight":"23px","size":"12||px"}}</paragraphfont>
+        <readmorefont>{"Small":{"type":"0","size":"11||px","color":"188DD9","bold":"0","italic":"0","underline":"0","align":"left","afont":"Verdana, Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"normal"}, "Big":{"type":"Latin","family":"PT Sans","size":"12||px","color":"E4EAEE","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|"}}</readmorefont>
+        <captionfont>{"Tag":{"type":"0","size":"11||px","color":"FFFFFF","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|0|*|","lineheight":"normal"},"Title":{"type":"Latin","family":"PT Sans","size":"24||px"},"Paragraph":{"type":"Latin","family":"PT Sans","size":"13||px","bold":"0"},"Link":{"type":"Latin","family":"PT Sans","size":"13||px","bold":"0"}}</captionfont>                 
+        <defaultcaptionfont>{"Title":{"type":"Latin","family":"Source Sans Pro","subset":"Latin","size":"30||px","lineheight":"30px","tshadow":"1||px|*|1||px|*|1||px|*|666666|*|1|*|","bold":"1","color":"ffffff"},"Description":{"lineheight":"24px","size":"16||px","bold":"0"}}</defaultcaptionfont>
+      </minimal>         
+    </param>
+    <param type="offlajncombine" name="tabbg" default="ffffff|*|188DD9" label="Background color" description="">
+      <param type="offlajncolor" label="Background color" description="" />
+      <param  type="offlajncolor" label="Selected background color" description="" />
+    </param>
+    <param name="textshadow" type="offlajnonoff" default="1" label="Text shadow" description=""/>
+    <param name="headingfont" type="offlajnfont" tabs="Heading|Subheading" default="*Latin|*Arial, Helvetica|*PT Sans|*30px|*1|*0|*188DD9|*0|*0px|*0px|*0px|*ffffff" label="Heading font" description="" />
+    <param name="paragraphfont" type="offlajnfont" tabs="Paragraph|Link|Tag" default="*Latin|*Arial, Helvetica|*PT Sans|*14px|*0|*0|*3E3E3E|*0|*0px|*0px|*0px|*ffffff" label="Paragraph font" description="" />
+    <param name="readmorefont" type="offlajnfont" tabs="Small|Big" default="*0|*Verdana, Arial, Helvetica|*|*11px|*0|*0|*188DD9|*0|*0px|*0px|*0px|*ffffff" label="Small read more font" description="" />
+    <param name="defaultcaptionfont" type="offlajnfont" tabs="Title|Description" default="" label="Default caption font" description="" />
+    <param name="captionfont" type="offlajnfont" tabs="Tag|Title|Paragraph|Link" default="*0|*Arial, Helvetica|*|*10px|*1|*0|*FFFFFF|*1|*1px|*1px|*1px|*000000" label="Caption font" description="" />
+  </params>
+</config>
+

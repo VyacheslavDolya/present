@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <name>Accordion Horizontal Elegant Theme</name>
+    <params>
+        <param name="skin" theme="accordion_horizontal_elegant" type="offlajnskin" default="" label="Skin" description="">
+            <darkblue>
+                <outerborder>6||px|*|3E3E3E</outerborder>
+                <innerborder>6||px|*|222222</innerborder>
+                <bgcolor>ffffff</bgcolor>
+                <tabbg>3E3E3E|*|188DD9</tabbg>
+                <tabfont>{"Tab":{"type":"Latin","family":"Open Sans","subset":"Latin","size":"14||px","color":"e4eaee","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|1||px|*|000000|*|0|*|","lineheight":"28px"},"Selected":{"color":"222222","tshadow":"0||px|*|0||px|*|1||px|*|000000|*|0|*|","type":"Latin","subset":"Latin"}}</tabfont>
+                <headingfont>{"Heading":{"type":"Latin","family":"PT Sans","subset":"Latin","size":"30||px","color":"188DD9","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"normal"}, "Subheading":{"color":"3E3E3E","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","size":"15||px","bold":"0","italic":"1"}}</headingfont>
+                <paragraphfont>{"Paragraph":{"type":"Latin","family":"PT Sans","subset":"Latin","size":"14||px","color":"3e3e3e","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"18px"},"Link":{"color":"188dd9"},"Tag":{"color":"e4eaee","bold":"1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|","lineheight":"23px","size":"12||px"}}</paragraphfont>
+                <readmorefont>{"Small":{"type":"0","size":"11||px","color":"188DD9","bold":"0","italic":"0","underline":"0","align":"left","afont":"Verdana, Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"normal"}, "Big":{"type":"Latin","family":"PT Sans","size":"12||px","color":"E4EAEE","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|"}}</readmorefont>
+                <captionfont>{"Tag":{"type":"0","size":"11||px","color":"FFFFFF","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|0|*|","lineheight":"normal"},"Title":{"type":"Latin","family":"PT Sans","size":"24||px"},"Paragraph":{"type":"Latin","family":"PT Sans","size":"13||px","bold":"0"},"Link":{"type":"Latin","family":"PT Sans","size":"13||px","bold":"0"}}</captionfont>
+                <slidenumberfont>{"Text":{"type":"Latin","family":"Open Sans","align":"center","size":"11||px","color":"FFFFFF","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|0|*|","lineheight":"normal"}}</slidenumberfont>
+                <defaultcaptionfont>{"Title":{"type":"Latin","family":"Source Sans Pro","subset":"Latin","size":"30||px","lineheight":"30px","tshadow":"1||px|*|1||px|*|1||px|*|666666|*|1|*|","bold":"1","color":"ffffff"},"Description":{"lineheight":"24px","size":"16||px","bold":"0"}}</defaultcaptionfont>
+            </darkblue>
+            <darkgreen>
+                <outerborder>6||px|*|3E3E3E</outerborder>
+                <innerborder>6||px|*|222222</innerborder>
+                <bgcolor>ffffff</bgcolor>
+                <tabbg>3E3E3E|*|87b801</tabbg>
+                <tabfont>{"Tab":{"color":"E4EAEE"}, "Selected":{"color":"222222"}}</tabfont>
+                <headingfont>{"Heading":{"color":"87b801"}, "Subheading":{"color":"3E3E3E"}}</headingfont>
+                <paragraphfont>{"Paragraph":{"color":"3E3E3E"}, "Link":{"color":"87b801"}, "Tag":{"color":"E4EAEE"}}</paragraphfont>
+                <readmorefont>{"Small":{"color":"87b801"}, "Big":{"color":"E4EAEE"}}</readmorefont>
+                <captionfont>{"Tag":{"color":"FFFFFF"}}</captionfont>
+                <slidenumberfont>{"Text":{"color":"FFFFFF"}}</slidenumberfont>
+            </darkgreen>
+            <darkorange>
+                <outerborder>6||px|*|3E3E3E</outerborder>
+                <innerborder>6||px|*|222222</innerborder>
+                <bgcolor>ffffff</bgcolor>
+                <tabbg>3E3E3E|*|fb7400</tabbg>
+                <tabfont>{"Tab":{"color":"E4EAEE"}, "Selected":{"color":"222222"}}</tabfont>
+                <headingfont>{"Heading":{"color":"fb7400"}, "Subheading":{"color":"3E3E3E"}}</headingfont>
+                <paragraphfont>{"Paragraph":{"color":"3E3E3E"}, "Link":{"color":"fb7400"}, "Tag":{"color":"E4EAEE"}}</paragraphfont>
+                <readmorefont>{"Small":{"color":"fb7400"}, "Big":{"color":"E4EAEE"}}</readmorefont>
+                <captionfont>{"Tag":{"color":"FFFFFF"}}</captionfont>
+                <slidenumberfont>{"Text":{"color":"FFFFFF"}}</slidenumberfont>
+            </darkorange>
+            <darkred>
+                <outerborder>6||px|*|3E3E3E</outerborder>
+                <innerborder>6||px|*|222222</innerborder>
+                <bgcolor>ffffff</bgcolor>
+                <tabbg>3E3E3E|*|bd161f</tabbg>
+                <tabfont>{"Tab":{"color":"E4EAEE"}, "Selected":{"color":"222222"}}</tabfont>
+                <headingfont>{"Heading":{"color":"bd161f"}, "Subheading":{"color":"3E3E3E"}}</headingfont>
+                <paragraphfont>{"Paragraph":{"color":"3E3E3E"}, "Link":{"color":"bd161f"}, "Tag":{"color":"E4EAEE"}}</paragraphfont>
+                <readmorefont>{"Small":{"color":"bd161f"}, "Big":{"color":"E4EAEE"}}</readmorefont>
+                <captionfont>{"Tag":{"color":"FFFFFF"}}</captionfont>
+                <slidenumberfont>{"Text":{"color":"FFFFFF"}}</slidenumberfont>
+            </darkred>
+            <darkpurple>
+                <outerborder>6||px|*|3E3E3E</outerborder>
+                <innerborder>6||px|*|222222</innerborder>
+                <bgcolor>ffffff</bgcolor>
+                <tabbg>3E3E3E|*|823FCD</tabbg>
+                <tabfont>{"Tab":{"color":"E4EAEE"}, "Selected":{"color":"222222"}}</tabfont>
+                <headingfont>{"Heading":{"color":"823FCD"}, "Subheading":{"color":"3E3E3E"}}</headingfont>
+                <paragraphfont>{"Paragraph":{"color":"3E3E3E"}, "Link":{"color":"823FCD"}, "Tag":{"color":"E4EAEE"}}</paragraphfont>
+                <readmorefont>{"Small":{"color":"823FCD"}, "Big":{"color":"E4EAEE"}}</readmorefont>
+                <captionfont>{"Tag":{"color":"FFFFFF"}}</captionfont>
+                <slidenumberfont>{"Text":{"color":"FFFFFF"}}</slidenumberfont>
+            </darkpurple>
+        </param>
+        <param type="offlajncombine" name="borderradius" default="1|*|1|*|1|*|1|*|px" label="Border radius" description="">
+          <param size="2" validation="int" type="offlajntext" label="TL"/>
+          <param size="2" validation="int" type="offlajntext" label="TR"/>
+          <param size="2" validation="int" type="offlajntext" label="BR"/>
+          <param size="2" validation="int" type="offlajntext" label="BL"/>
+          <param type="offlajnswitcher" label="-">
+            <unit value="px" imsrc="">px</unit>
+            <unit value="em" imsrc="">em</unit>
+          </param>
+        </param>  
+        <param type="offlajncombine" name="outerborder" default="6||px|*|3E3E3E" label="Outer border" description="">
+            <param type="offlajntext" size="3" validation="int" label="Border size" description="">
+                <unit>px</unit>
+            </param>
+            <param alpha="1" type="offlajncolor" label="Border color" description="" />
+        </param>
+        <param type="offlajncombine" name="innerborder" default="3||px|*|222222" label="Inner border" description="">
+            <param type="offlajntext" size="3" validation="int" label="Border size" description="">
+                <unit>px</unit>
+            </param>
+            <param alpha="1" type="offlajncolor" label="Border color" description="" />
+        </param>
+        <param name="bgcolor" alpha="1" type="offlajncolor" default="ffffff" label="Canvas background color" description="" />
+        <param type="offlajncombine" name="tabbg" default="3E3E3E|*|188DD9" label="Tab background color" description="">
+            <param type="offlajncolor" label="Background color" description="" />
+            <param type="offlajncolor" label="Selected tab background color" description="" />
+        </param>
+        <param name="tabfont" type="offlajnfont" tabs="Tab|Selected" default='{"Tab":{"type":"Latin","family":"Open Sans","subset":"Latin","size":"14||px","color":"e4eaee","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|1||px|*|000000|*|0|*|","lineheight":"28px"},"Selected":{"color":"222222","tshadow":"0||px|*|0||px|*|1||px|*|000000|*|0|*|","type":"Latin","subset":"Latin"}}' label="Tab font" description="" />
+        <param name="headingfont" type="offlajnfont" tabs="Heading|Subheading" default='{"Heading":{"type":"Latin","family":"PT Sans","subset":"Latin","size":"30||px","color":"188DD9","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|1||px|*|dddddd|*|0|*|","lineheight":"30px"},"Subheading":{"color":"3e3e3e","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","size":"15||px","bold":"0","italic":"1","lineheight":"15px","underline":"0","afont":"Arial, Helvetica||1","align":"left"}}' label="Heading font" description="" />
+        <param name="paragraphfont" type="offlajnfont" tabs="Paragraph|Link|Tag" default='{"Paragraph":{"type":"Latin","family":"PT Sans","subset":"Latin","size":"14||px","color":"3e3e3e","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"14px"},"Link":{"color":"188dd9"},"Tag":{"color":"e4eaee","bold":"1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|","size":"12||px","lineheight":"23px"}}' label="Paragraph font" description="" />
+        <param name="readmorefont" type="offlajnfont" tabs="Small|Big" default='{"Small":{"type":"0","size":"11||px","color":"188DD9","bold":"0","italic":"0","underline":"0","align":"left","afont":"Verdana, Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"13px","family":""},"Big":{"type":"Latin","family":"PT Sans","size":"12||px","color":"e4eaee","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|","subset":"Latin"}}' label="Read more font" description="" />
+        <param name="defaultcaptionfont" type="offlajnfont" tabs="Title|Description" default='{"Title":{"type":"Latin","family":"Source Sans Pro","subset":"Latin","size":"30||px","lineheight":"30px","tshadow":"1||px|*|1||px|*|1||px|*|666666|*|1|*|","bold":"1","color":"ffffff"},"Description":{"lineheight":"24px","size":"16||px","bold":"0"}}' label="Default caption font" description="" />
+        <param name="captionfont" type="offlajnfont" tabs="Tag|Title|Paragraph|Link" default='{"Tag":{"type":"Latin","size":"11||px","color":"FFFFFF","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|","lineheight":"13px","family":"PT Sans","subset":"Latin"},"Title":{"type":"Latin","family":"PT Sans","size":"24||px","color":"ffffff","italic":"0","bold":"1","underline":"0","align":"left","lineheight":"24px","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|"},"Paragraph":{"type":"Latin","family":"PT Sans","size":"13||px","bold":"0","color":"FFFFFF","lineheight":"15px","italic":"0","align":"left","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|"},"Link":{"type":"Latin","family":"PT Sans","size":"13||px","bold":"0","color":"FFFFFF","lineheight":"15px","underline":"1","align":"left"}}' label="Caption font" description="" />
+        <param name="slidenumberfont" type="offlajnfont" tabs="Text" default='{"Text":{"type":"Latin","family":"Open Sans","align":"center","size":"11||px","color":"FFFFFF","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|0|*|","lineheight":"normal"}}' label="Subslide numbers font" description="" />
+    </params>
+</config>

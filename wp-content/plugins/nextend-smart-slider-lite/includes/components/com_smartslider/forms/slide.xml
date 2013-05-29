@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <name>Slide Configuration XML</name>
+  <params addPath="/administrator/components/com_smartslider/oldparams">
+    <field name="update" type="offlajndashboard" label="-"/>
+    <param name="title" size="20" type="offlajntext" default="" label="Slide Title" description="The title of the slide"/>
+    <param name="published" type="offlajnonoff" default="1" label="Published" description=""/>
+		<param name="publish_up" type="calendar" default="" label="Start Publishing" description="" />
+		<param name="publish_down" type="calendar" default="" label="Finish Publishing" description="" />
+    <param type="offlajnordering" name="ordering" mode="2" height="10" label="Slide ordering" default="" />
+    <param name="groupprev" type="offlajnonoff" default="0" label="Group to previous slide" description="Example: to create vertical slider in a horizontal slider."/>
+    <param name="icon" type="offlajnimagemanager" default="" label="Slide icon" folder="/images/smartslider/slidericons/" exclude="" stripext="" hide_default="true" />
+    
+    <param type="smartinsert" name="" label="" description=""  />
+    <param type="specialinsert" name="" label="" description="" />
+  </params>
+  
+  <params addPath="/administrator/components/com_smartslider/oldparams" group="content">
+    <param name="content" type="offlajnslidertemplate" folder="../../../contents" editor="contenteditor-details" default="blank" label="Choose a template" description="" canvas="fixed" imgext="png" />
+  </params>
+  
+  <params addPath="/administrator/components/com_smartslider/oldparams" group="caption">
+    <param name="caption" type="offlajnslidertemplate" folder="../../../captions" editor="captioneditor-details" default="nocaption" label="Choose a template" description="" imgext="gif" />
+  </params>
+</config>

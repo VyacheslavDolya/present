@@ -1,0 +1,75 @@
+#nextend-configurator-lightbox{
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: fixed;
+  background-color: #3e3e3e;
+  background-color: RGBA(0,0,0,0.3);
+  left: 0;
+  top:0;
+  z-index:9900;
+  overflow:hidden;
+}
+
+#nextend-configurator-lightbox.nextend-no-style{
+  display: block;
+  position: static;
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  z-index:1;
+}
+
+#nextend-configurator-lightbox .nextend-configurator-container{
+  height: 100%;
+  width: 100%;
+  margin: 50px;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 0 0 3px #565656;
+  overflow:auto;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+#nextend-configurator-lightbox .nextend-configurator-container .nextend-configurator-container-inner{
+  height: 100%;
+  width: 100%;
+	overflow: scroll;
+  cursor: default;
+}
+
+#nextend-configurator-button{
+  display: block;
+  height: 35px;
+  width: 149px;
+  background: url('configurebutton.png') no-repeat 0 0;
+  overflow:hidden;
+  text-indent: -10000px;
+  margin: 10px;
+}
+
+#nextend-configurator-button:HOVER{
+  background-position: 0 -50px;
+}
+
+#nextend-configurator-save{
+  position: absolute;
+  bottom:5px;
+  left:50%;
+  margin-left: -81px;
+}
+
+#nextend-configurator-save .OfflajnWindowSaveContainer{
+  position: static;
+  margin:0;
+}
+
+#nextend-configurator-save .OfflajnWindowSave{
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+#nextend-configurator-message{
+  font-size: 14px;
+}

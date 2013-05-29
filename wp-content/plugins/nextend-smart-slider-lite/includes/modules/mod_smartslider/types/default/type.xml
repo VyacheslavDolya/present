@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <name>Default type settings</name>
+    <params>
+        <param name="size" type="offlajncombine" label="Size" default="0|*|485||px|*|300||px">
+            <param type="offlajnradio" default="1" label="Mode">
+                <option value="0">Canvas</option>
+                <option value="1">Slider</option>
+            </param>
+            <param type="offlajntext" size="4" validation="int" label="Width">
+                <unit>px</unit>
+            </param>
+            <param type="offlajntext" size="4" validation="int" label="Height">
+                <unit>px</unit>
+            </param>
+        </param>
+        
+        <param name="css3animation" type="offlajncombine" label="CSS3 animations" default="1|*|0|*|0">
+            <param type="offlajnonoff" label="-" />
+            <param multiple="multiple" type="offlajnmultiselectlist" mode="1" height="10" label="Entrance" description="">
+                <option value="0">All</option>
+                <option value="flipInX">Flip In X</option>
+                <option value="flipInY">Flip In Y</option>
+                <option value="fadeIn">Fade In</option>
+                <option value="fadeInLeft">Fade In Left</option>
+                <option value="fadeInUp">Fade In Up</option>
+                <option value="fadeInRight">Fade In Right</option>
+                <option value="fadeInDown">Fade In Down</option>
+                <option value="bounceIn">Bounce In</option>
+                <option value="bounceInLeft">Bounce In Left</option>
+                <option value="bounceInUp">Bounce In Up</option>
+                <option value="bounceInRight">Bounce In Right</option>
+                <option value="bounceInDown">Bounce In Down</option>
+                <option value="rotateInUpRight">Rotate In Up Right</option>
+                <option value="rotateInUpLeft">Rotate In Up Left</option>
+                <option value="rotateInDownRight">Rotate In Down Right</option>
+                <option value="rotateInDownLeft">Rotate In Down Left</option>
+                <option value="lightSpeedIn">Light Speed In</option>
+            </param>
+            <param multiple="multiple" type="offlajnmultiselectlist" mode="1" height="10" label="Exit" description="">
+                <option value="0">All</option>
+                <option value="flipOutX">Flip Out X</option>
+                <option value="flipOutY">Flip Out Y</option>
+                <option value="fadeOut">Fade Out</option>
+                <option value="fadeOutLeft">Fade Out Left</option>
+                <option value="fadeOutUp">Fade Out Up</option>
+                <option value="fadeOutRight">Fade Out Right</option>
+                <option value="fadeOutDown">Fade Out Down</option>
+                <option value="bounceOut">Bounce Out</option>
+                <option value="bounceOutUp">Bounce Out Up</option>
+                <option value="bounceOutLeft">Bounce Out Left</option>
+                <option value="bounceOutRight">Bounce Out Right</option>
+                <option value="bounceOutDown">Bounce Out Down</option>
+                <option value="rotateOutUpRight">Rotate Out Up Right</option>
+                <option value="rotateOutUpLeft">Rotate Out Up Left</option>
+                <option value="rotateOutDownRight">Rotate Out Down Right</option>
+                <option value="rotateOutDownLeft">Rotate Out Down Left</option>
+                <option value="lightSpeedOut">Light Speed Out</option>
+                <option value="hinge">Hinge</option>
+            </param>
+        </param>
+        
+        <param name="transition" type="offlajnlist" default="1" label="Alternative transition" description="">
+            <option value="1">Sliding</option>
+            <option value="2">Fading</option>
+        </param>
+        <param name="mainanimation" type="offlajncombine" label="Main animation" default="400||ms|*|dojo.fx.easing.cubicInOut">
+            <param type="offlajntext" size="4" validation="int" label="Interval">
+                <unit>ms</unit>
+            </param>
+            <param type="offlajneasing" hide_none="true" label="Easing" />
+        </param>
+        
+        <param name="mousescroll" type="offlajnonoff" default="1" label="Mouse scroll" description="" />
+        <param name="autoplay" type="offlajncombine" label="Autoplay" default="5000||ms|*|0|*|1">
+            <param type="offlajntext" size="4" validation="int" label="Interval">
+                <unit>ms</unit>
+            </param>
+            <param type="offlajnlist" label="Mode">
+                <option value="0">Disabled</option>
+                <option value="1">Enabled</option>
+                <option value="2">Never stop autoplay</option>
+            </param>
+            <param type="offlajnswitcher" label="-" onoff="1">
+                <option value="1">ON</option>
+                <option value="0">OFF</option>
+            </param>
+        </param>
+        <param name="buttonskin" type="offlajncombine" label="Buttons" default="5000*|0|*|1">
+            <param type="offlajnlist" label="Button skin">
+                <option value="new-dark">Dark</option>
+                <option value="new-light">Light</option>
+                <option value="new-large">Large</option>
+            </param>
+            <param type="offlajnswitcher" label="-" onoff="1">
+                <option value="1">ON</option>
+                <option value="0">OFF</option>
+            </param>
+        </param>
+        <param name="shadow" type="offlajnimagemanager" default="" label="Slider shadow" description="" folder="/modules/mod_smartslider/images/shadows/" exclude="" stripext="" hide_default="true" />
+    </params>
+</config>

@@ -1,0 +1,390 @@
+@import url('http://fonts.googleapis.com/css?family=Cabin:400,700');
+@import url('http://fonts.googleapis.com/css?family=PT Sans:400');
+
+/*Joomla! 1.5 border fix*/
+#nextend-configurator-lightbox div.nextendpanel fieldset{
+  border:none;
+}
+
+/*Parameters head*/
+#nextend-configurator-lightbox div.nextendpanel h3.title{
+  border-left: 5px solid #146295;
+  border-bottom: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'Cabin', sans-serif;
+  font-weight: normal;
+  color: #146295;
+}
+
+#nextend-configurator-lightbox div.nextendpanel .title span,
+#nextend-configurator-lightbox div.nextendpanel .title span label{
+  text-transform:uppercase;
+  font-size: 15px;
+  line-height: 30px;
+  padding-left: 5px;
+  background-image: none;
+  float: none;
+  display: inline;
+}
+
+#nextend-configurator-lightbox div.nextendpanel .title span,
+#nextend-configurator-lightbox div.nextendpanel .title a span{
+  color: #146295;
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider > fieldset{
+  margin: 0;
+  padding: 0;
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider fieldset.nextendpanelform{
+  padding: 0;
+  margin: 0;
+  /*overflow: auto;*/
+  overflow: visible;
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider ul.adminformlist li,
+#nextend-configurator-lightbox div.nextendpanel table.paramlist tr{
+  background: #ffffff;
+  padding-left: 0;
+  display : block;
+  float: left;
+  width: 100%;
+  min-height: 40px;
+  border-top: 1px solid #c0d5e3;
+  position: relative;
+}
+
+#nextend-configurator-lightbox div.nextendpanel table.paramlist tr{
+  background-image: url('../images/greypx15.png');
+  background-repeat: repeat-y;
+}
+
+#nextend-configurator-lightbox div.nextendpanel table.paramlist tr td{
+  height: 40px;
+}
+
+#nextend-configurator-lightbox div.nextendpanel table.paramlist tr td.paramlist_key{
+  border: 0;
+  background-color: transparent;
+  border-right: 1px solid #CCCCCC;
+  padding-right: 5px;
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider ul.adminformlist li.levelgroup,
+#nextend-configurator-lightbox div.nextendpanel table.paramlist tr td.paramlist_value{
+  padding: 7px 0px 7px 10px;
+}
+
+.pane-sliders .content {
+  /*overflow: hidden;*/
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider ul.adminformlist li.blue,
+#nextend-configurator-lightbox div.nextendpanel table.paramlist tr.blue{
+  background-color: #dce8ef;
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider ul.adminformlist li.levelgroup,
+#nextend-configurator-lightbox div.nextendpanel table.paramlist tr.levelgroup{
+  background-color: #FAFAFA;
+  background-image: none;
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider ul.adminformlist li.hide,
+#nextend-configurator-lightbox div.nextendpanel table.paramlist tr.hide{
+  display: none;
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider,
+#nextend-configurator-lightbox div.nextend-jpane-slider{
+  height: 0px;
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider fieldset.jelement{
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+#nextend-configurator-lightbox fieldset.panelform{
+  overflow: visible;
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider fieldset.panelform li{
+  min-height: 20px;
+  padding: 8px 0;
+  background-image: url('../images/greypx.png');
+  background-repeat: repeat-y;
+}
+
+#nextend-configurator-lightbox div.nextend-pane-slider fieldset.panelform li> label{
+  padding: 4px 21px 4px 10px;
+  width: 146px;
+  min-width: auto;
+  min-height: 10px;
+/*  border-right: 1px solid #c0d5e3;*/
+  text-align: right;
+  line-height: 14px;
+  font-family: 'PT Sans';
+  color: #454545;
+  font-size: 13px;
+  margin: 0; 
+}
+
+#nextend-configurator-lightbox ul.adminformlist{
+    border: medium none;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+/**/
+
+#nextend-configurator-lightbox div.nextendpanel table.paramlist tr td.paramlist_value .legend{
+  border: 1px solid #CCCCCC;
+  margin-bottom: 3px;
+}
+
+/*Offlajn Dashboard*/
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard h3.title{
+  border:0;
+  border-bottom: 1px solid #cccccc;
+  padding:0;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: #f4f4f4;
+  height: 40px;
+  line-height: 40px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px; 
+  padding-left: 10px
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard h3.title span{
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height:40px;
+  color:#025A8D;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard{
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px; 
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .nextend-pane-slider{
+  height: 100%;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .column{
+  float: left;
+  width: 33.333%;
+  overflow:hidden;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .dashboard-box{
+  width:100%;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .dashboard-box .box-title{
+  height:30px;
+  border-left: 5px solid #ededed;
+  padding-left: 5px;
+  background-color: #f4f4f4;
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  color:#2577ad;
+  line-height:30px;  
+  text-transform:uppercase;
+  overflow: hidden;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .dashboard-box{
+  border: 1px solid #cccccc;
+  border-top:0;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .left .dashboard-box{
+  border-left:0;
+  border-bottom:0;
+}
+
+#nextend-configurator-lightbox #related-news-iframe{
+  height: 200px;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .mid .dashboard-box{
+  border-right: 0;
+  border-bottom: 0;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .dashboard-box .box-content{
+  border-top: 1px solid #cccccc;
+  background-color: #FFFFFF;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .dashboard-box .box-content .content-inner{
+  padding: 7px;
+  border-left: 5px solid #ededed;
+  min-height: 77px;
+  color: #393939;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .dashboard-box .box-content .content-inner .support-ticket-button{
+  float: right;
+  height: 21px;
+  width: 110px;
+  margin: 12px 5px 2px 5px;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .dashboard-box .box-content .content-inner .support-ticket-button a{
+  height: 21px;
+  width: 110px;
+  display: block;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .dashboard-box .box-content .content-inner .support-us-button{
+  float: right;
+  height: 21px;
+  width: 88px;
+  margin: 12px 5px 2px 5px;
+}
+
+#nextend-configurator-lightbox div.nextendpanel.dashboard .dashboard-box .box-content .content-inner .support-us-button a{
+  height: 21px;
+  width: 88px;
+  display: block;
+}
+
+/*ToolTip*/
+
+.arrowL, .arrowR, .arrowB, .arrowT {
+  border: 5px transparent solid;
+  display: block;
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+.arrowL {
+  top: 3px;
+  left: -5px;
+  border-right-color:#808080 ;
+  border-width: 5px 5px 5px 0;
+}
+.arrowR {
+  top: 3px;
+  right: -5px;
+  border-left-color: #808080;
+  border-width: 5px 0 5px 5px;
+}
+.arrowT {
+  left: 2px;
+  bottom: -8px;
+  border-top-color: #808080;
+  border-width: 5px 5px 0 5px;
+}
+.arrowB {
+  left: 2px;
+  top: -8px;
+  border-bottom-color: #808080;
+  border-width: 0 5px 5px 5px;
+}
+
+.tool-tip-container {
+  display: none;
+  z-index: 10000;
+  position: absolute;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-background-size: 100% 100%;
+	box-shadow:
+		1px 1px 2px rgba(0,0,0,0.3),
+		inset 2px 2px 5px rgba(0,0,0,0.15);
+	-moz-box-shadow:
+		1px 1px 2px rgba(0,0,0,0.3),
+		inset 2px 2px 5px rgba(0,0,0,0.15);
+	-webkit-box-shadow:
+		1px 1px 2px rgba(0,0,0,0.3),
+		inset 2px 2px 5px rgba(0,0,0,0.15);
+    background-color: #fef3cb;
+    border: 1px solid #bfbfbe;		
+}
+
+span.tooltipInf {
+    background: url('../images/info.png') no-repeat scroll left center transparent;
+    font-size: 12px;
+    font-family: "PT Sans",Arial;
+    cursor: default;
+    line-height: 23px;
+    margin-left: 8px;
+    padding: 0 8px 0 16px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+    color:#5e5e5e;
+    white-space: nowrap;
+}
+
+#nextend-configurator-lightbox .pane-sliders .nextendpanel {
+  border: 1px solid #CCCCCC;
+  margin-bottom: 3px;
+}
+
+
+/*
+Joomla 3
+*/
+#nextend-configurator-lightbox .pane-sliders .nextendpanel{
+  clear: both;
+}
+
+#nextend-configurator-lightbox .pane-sliders .nextendpanel .clr{
+  clear: both;
+}
+
+#nextend-configurator-lightbox .pane-sliders .nextendpanel h3 {
+    background: none repeat scroll 0 0 #FAFAFA;
+    color: #666666;
+    margin:0;
+    cursor: pointer;
+}
+
+#nextend-configurator-lightbox .pane-sliders .nextendpanel {
+    border: 1px solid #CCCCCC;
+}
+
+#nextend-configurator-lightbox .pane-sliders .adminformlist{
+  margin:0;
+}
+
+#nextend-configurator-lightbox .pane-sliders fieldset label, 
+#nextend-configurator-lightbox .pane-sliders fieldset span.faux-label {
+  clear: left;
+  display: block;
+  float: left;
+}
+
+#nextend-configurator-lightbox #options-basic .control-group{
+  display: none;
+}
+
+#nextend-configurator-lightbox .pane-sliders input,
+.OfflajnWindowFont input{
+  width: auto;
+}
+
+#nextend-configurator-lightbox .pane-sliders a:HOVER{
+  text-decoration: none;
+}

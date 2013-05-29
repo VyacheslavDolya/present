@@ -1,6 +1,8 @@
 <?php
-if ( ! isset( $content_width ) ) {
-	$content_width = 580;
+
+if (!isset($content_width))
+{
+    $content_width = 580;
 }
 
 $includes_path = TEMPLATEPATH . '/includes/';
@@ -12,4 +14,9 @@ require_once ($includes_path . 'custom-widgets.php'); // 125x125 Ads Widget & So
 require_once ($includes_path . 'theme-photoblog.php'); // Photoblog functionality
 require_once ($includes_path . 'theme-options.php'); // Theme Options
 require_once ($includes_path . 'theme-slider.php'); // Slider custom post type
+
+register_sidebar(array(
+    'name' => 'Header Slider',
+    'id' => 'header_slider',
+));
 ?>

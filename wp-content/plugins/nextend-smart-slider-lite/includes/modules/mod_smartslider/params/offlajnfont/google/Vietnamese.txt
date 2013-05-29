@@ -1,0 +1,7 @@
+Arimo
+EB Garamond
+Noticia Text
+Open Sans
+Open Sans Condensed
+Roboto
+Roboto Condensed

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <name>Simple horizontal Joyful theme</name>
+    <params>
+        <param name="skin" theme="simple_horizontal_joyful" type="offlajnskin" default="" size="5" label="Skin" description="">
+            <darkblue>
+                <outerborder>**|*|232323</outerborder>
+                <bgcolor>ffffff</bgcolor>
+                <tabbg>3e3e3e|*|188DD9</tabbg>
+                <controllfont>{"Text":{"type":"Latin","family":"PT Sans Narrow","size":"20||px","color":"FFFFFF","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|1||px|*|000000|*|1|*|","lineheight":"33px"}}</controllfont>
+                <headingfont>{"Heading":{"type":"Latin","family":"PT Sans","subset":"Latin","size":"30||px","color":"188DD9","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"normal"}, "Subheading":{"color":"3E3E3E","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","size":"15||px","bold":"0","italic":"1"}}</headingfont>
+                <paragraphfont>{"Paragraph":{"type":"Latin","family":"PT Sans","subset":"Latin","size":"14||px","color":"3e3e3e","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"18px"},"Link":{"color":"188dd9"},"Tag":{"color":"e4eaee","bold":"1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|","lineheight":"23px","size":"12||px"}}</paragraphfont>
+                <readmorefont>{"Small":{"type":"0","size":"11||px","color":"188DD9","bold":"0","italic":"0","underline":"0","align":"left","afont":"Verdana, Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"normal"}, "Big":{"type":"Latin","family":"PT Sans","size":"12||px","color":"E4EAEE","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|"}}</readmorefont>
+                <captionfont>{"Tag":{"type":"0","size":"11||px","color":"FFFFFF","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|0|*|","lineheight":"normal"},"Title":{"type":"Latin","family":"PT Sans","size":"24||px"},"Paragraph":{"type":"Latin","family":"PT Sans","size":"13||px","bold":"0"},"Link":{"type":"Latin","family":"PT Sans","size":"13||px","bold":"0"}}</captionfont>
+                <defaultcaptionfont>{"Title":{"type":"Latin","family":"Source Sans Pro","subset":"Latin","size":"30||px","lineheight":"30px","tshadow":"1||px|*|1||px|*|1||px|*|666666|*|1|*|","bold":"1","color":"ffffff"},"Description":{"lineheight":"24px","size":"16||px","bold":"0"}}</defaultcaptionfont>
+            </darkblue>
+            <darkgreen>
+                <outerborder>**|*|232323</outerborder>
+                <bgcolor>ffffff</bgcolor>
+                <tabbg>3e3e3e|*|87b801</tabbg>
+                <controllfont>{"Text":{"color":"FFFFFF"}}</controllfont>
+                <headingfont>{"Heading":{"color":"87b801"}, "Subheading":{"color":"3E3E3E"}}</headingfont>
+                <paragraphfont>{"Link":{"color":"87b801"}}</paragraphfont>
+                <readmorefont>{"Small":{"color":"87b801"}, "Big":{"color":"E4EAEE"}}</readmorefont>
+                <captionfont>{"Tag":{"color":"FFFFFF"}}</captionfont>
+            </darkgreen>
+            <darkorange>
+                <outerborder>**|*|232323</outerborder>
+                <bgcolor>ffffff</bgcolor>
+                <tabbg>3e3e3e|*|fb7400</tabbg>
+                <controllfont>{"Text":{"color":"FFFFFF"}}</controllfont>
+                <headingfont>{"Heading":{"color":"fb7400"}, "Subheading":{"color":"3E3E3E"}}</headingfont>
+                <paragraphfont>{"Link":{"color":"fb7400"}}</paragraphfont>
+                <readmorefont>{"Small":{"color":"fb7400"}, "Big":{"color":"E4EAEE"}}</readmorefont>
+                <captionfont>{"Tag":{"color":"FFFFFF"}}</captionfont>
+            </darkorange>
+            <darkred>
+                <outerborder>**|*|232323</outerborder>
+                <bgcolor>ffffff</bgcolor>
+                <tabbg>3e3e3e|*|bd161f</tabbg>
+                <controllfont>{"Text":{"color":"FFFFFF"}}</controllfont>
+                <headingfont>{"Heading":{"color":"bd161f"}, "Subheading":{"color":"3E3E3E"}}</headingfont>
+                <paragraphfont>{"Link":{"color":"bd161f"}}</paragraphfont>
+                <readmorefont>{"Small":{"color":"bd161f"}, "Big":{"color":"E4EAEE"}}</readmorefont>
+                <captionfont>{"Tag":{"color":"FFFFFF"}}</captionfont>
+            </darkred>
+            <darkpurple>
+                <outerborder>**|*|232323</outerborder>
+                <bgcolor>ffffff</bgcolor>
+                <tabbg>3e3e3e|*|823FCD</tabbg>
+                <controllfont>{"Text":{"color":"FFFFFF"}}</controllfont>
+                <headingfont>{"Heading":{"color":"823FCD"}, "Subheading":{"color":"3E3E3E"}}</headingfont>
+                <paragraphfont>{"Link":{"color":"823FCD"}}</paragraphfont>
+                <readmorefont>{"Small":{"color":"823FCD"}, "Big":{"color":"E4EAEE"}}</readmorefont>
+                <captionfont>{"Tag":{"color":"FFFFFF"}}</captionfont>
+            </darkpurple>
+        </param>
+        <param type="offlajncombine" name="borderradius" default="0|*|0|*|0|*|0|*|px" label="Border radius" description="">
+          <param size="2" validation="int" type="offlajntext" label="TL"/>
+          <param size="2" validation="int" type="offlajntext" label="TR"/>
+          <param size="2" validation="int" type="offlajntext" label="BR"/>
+          <param size="2" validation="int" type="offlajntext" label="BL"/>
+          <param type="offlajnswitcher" label="-">
+            <unit value="px" imsrc="">px</unit>
+            <unit value="em" imsrc="">em</unit>
+          </param>
+        </param>  
+        <param type="offlajncombine" name="outerborder" default="1||px|*|232323" label="Outer border" description="">
+            <param type="offlajntext" size="3" validation="int" label="Border size" description="">
+                <unit>px</unit>
+            </param>
+            <param alpha="1" type="offlajncolor" label="Border color" description="" />
+        </param>
+        <param name="bgcolor" type="offlajncolor" alpha="1" default="ffffff" label="Background color" description="" />
+        <param type="offlajncombine" name="tabbg" default="3E3E3E|*|188DD9" label="Tab background color" description="">
+            <param type="offlajncolor" label="Background color" description="" />
+            <param type="offlajncolor" label="Selected tab background color" description="" />
+        </param>
+        <param name="controllfont" type="offlajnfont" tabs="Text" default="*Latin|*Arial, Helvetica|*PT Sans Narrow|*20px|*1|*0|*FFFFFF|*1|*0px|*1px|*1px|*000000" label="Control button font" description="" />
+        <param name="textshadow" type="offlajnonoff" default="1" label="Text shadow" description="" />
+        <param name="headingfont" type="offlajnfont" tabs="Heading|Subheading" default='{"Heading":{"type":"Latin","family":"PT Sans","subset":"Latin","size":"30||px","color":"188DD9","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|1||px|*|1||px|*|dddddd|*|0|*|","lineheight":"30px"},"Subheading":{"color":"3e3e3e","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","size":"15||px","bold":"0","italic":"1","lineheight":"15px","underline":"0","afont":"Arial, Helvetica||1","align":"left"}}' label="Heading font" description="" />
+        <param name="paragraphfont" type="offlajnfont" tabs="Paragraph|Link|Tag" default='{"Paragraph":{"type":"Latin","family":"PT Sans","subset":"Latin","size":"14||px","color":"3e3e3e","bold":"0","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"14px"},"Link":{"color":"188dd9"},"Tag":{"color":"e4eaee","bold":"1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|","size":"12||px","lineheight":"23px"}}' label="Paragraph font" description="" />
+        <param name="readmorefont" type="offlajnfont" tabs="Small|Big" default='{"Small":{"type":"0","size":"11||px","color":"188DD9","bold":"0","italic":"0","underline":"0","align":"left","afont":"Verdana, Arial, Helvetica||1","tshadow":"0||px|*|0||px|*|0||px|*|ffffff|*|0|*|","lineheight":"13px","family":""},"Big":{"type":"Latin","family":"PT Sans","size":"12||px","color":"e4eaee","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|","subset":"Latin"}}' label="Read more font" description="" />
+        <param name="defaultcaptionfont" type="offlajnfont" tabs="Title|Description" default='{"Title":{"type":"Latin","family":"Source Sans Pro","subset":"Latin","size":"30||px","lineheight":"30px","tshadow":"1||px|*|1||px|*|1||px|*|666666|*|1|*|","bold":"1","color":"ffffff"},"Description":{"lineheight":"24px","size":"16||px","bold":"0"}}' label="Default caption font" description="" />
+        <param name="captionfont" type="offlajnfont" tabs="Tag|Title|Paragraph|Link" default='{"Tag":{"type":"Latin","size":"11||px","color":"FFFFFF","bold":"1","italic":"0","underline":"0","align":"left","afont":"Arial, Helvetica||1","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|","lineheight":"13px","family":"PT Sans","subset":"Latin"},"Title":{"type":"Latin","family":"PT Sans","size":"24||px","color":"ffffff","italic":"0","bold":"1","underline":"0","align":"left","lineheight":"24px","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|"},"Paragraph":{"type":"Latin","family":"PT Sans","size":"13||px","bold":"0","color":"FFFFFF","lineheight":"15px","italic":"0","align":"left","tshadow":"1||px|*|1||px|*|1||px|*|000000|*|1|*|"},"Link":{"type":"Latin","family":"PT Sans","size":"13||px","bold":"0","color":"FFFFFF","lineheight":"15px","underline":"1","align":"left"}}' label="Caption font" description="" />
+    </params>
+</config>

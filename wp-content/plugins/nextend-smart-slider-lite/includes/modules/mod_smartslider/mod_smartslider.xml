@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" client="site">
+    <name>Nextend Smart Slider</name>
+    <author>Roland Soos @ Nextendweb.com</author>
+    <creationDate>August 2011</creationDate>
+    <copyright>Nextendweb.com</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>roland.soos@offlajn.com</authorEmail>
+    <authorUrl>http://www.nextendweb.com</authorUrl>
+    <version>4.1.2</version>
+    <description></description>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.mod_smartslider.ini</language>
+    </languages>
+    <files>
+        <filename>clear.css.php</filename>
+        <filename>index.html</filename>
+        <filename>live_demo.php</filename>
+        <filename module="mod_smartslider">mod_smartslider.php</filename>
+        <filename>mod_smartslider.xml</filename>
+        <folder>captions</folder>
+        <folder>classes</folder>
+        <folder>contents</folder>
+        <folder>generators</folder>
+        <folder>helpers</folder>
+        <folder>ie6</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+        <folder>language</folder>
+        <folder>params</folder>
+        <folder>params_bak</folder>
+        <folder>types</folder>
+    </files>
+    <params addPath="/modules/mod_smartslider/params/nextendconfigurator">
+        <param name="nextendconfig" type="nextendconfigurator" label="&amp;nbsp;">
+            <params>
+                <param name="update" type="offlajndashboard" label="Smart Slider -" jed="http://extensions.joomla.org/extensions/photos-a-images/slideshow/image-jquery-slideshow/18006" />
+            </params>
+        </param>
+    </params>
+    <params group="advanced">
+        <param name="cache" type="hidden" default="0" />
+        <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+    </params>
+    <config>
+        <fields name="params" addfieldpath="/modules/mod_smartslider/params/nextendconfigurator">
+            <fieldset name="basic">
+                <field name="nextendconfig" type="nextendconfigurator" label="&amp;nbsp;">
+                    <params>
+                        <param name="update" type="offlajndashboard" label="Smart Slider -" jed="http://extensions.joomla.org/extensions/photos-a-images/slideshow/image-jquery-slideshow/18006" />
+                        <param name="moduleparametersTab" type="offlajntab" label="Module parameters" position="first">
+                            <param name="slider" type="offlajnsliders" default="" label="Slider" description="" />
+                        </param>
+                    </params>
+                </field>
+            </fieldset>
+            <fieldset name="advanced">
+                <field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+                <field name="cache" type="hidden" default="0" />
+                <field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+                <field name="cachemode" type="hidden" default="itemid">
+                    <option value="itemid"></option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</install>

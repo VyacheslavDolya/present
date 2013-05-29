@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <name>Joomla Articles</name>
+  <img>joomlaarticles.png</img>
+  <params>
+   
+    
+    <param name="generatorcategory" type="articlecategories" default="" label="Select source categories"/>
+    <param name="generatorfeatured" type="offlajnonoff" default="0" label="Featured"/>
+    <param name="generatororderby" type="list" default="" label="Order by">
+      <option value="title">Title</option>
+      <option value="hits">Most popular</option>
+      <option value="created">Created date</option>
+      <option value="modified">Modified date</option>
+      <option value="ordering">Ordering</option>
+    </param>
+    <param name="generatororder" type="list" default="desc" label="Order">
+      <option value="ASC">Ascending</option>
+      <option value="DESC">Descending</option>
+      <option value="random">Random</option>
+    </param>
+    <param name="generatorcontentimage" type="offlajnonoff" default="0" label="Only contents with image"/>
+    
+    
+    <param name="generatorslidenumber" type="offlajntext" default="" label="Number of slides" description="Number of the slides"/>
+    <param name="generatorslidegenerate" type="offlajnonoff" default="0" label="Generates slides" description="Generates the slides">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </param>
+  </params>
+  <settings>
+    <component>com_content</component>
+    <allowedtemplates>
+      <allowedtemplate>onecolumn</allowedtemplate>
+      <allowedtemplate>twocolumn</allowedtemplate>
+      <allowedtemplate>threecolumn</allowedtemplate>
+      <allowedtemplate>linkandbackground</allowedtemplate>
+    </allowedtemplates>
+    
+    <editablefields>
+      <editablefield>contentheadingtargetwindow</editablefield>
+      <editablefield>contenttagtargetwindow</editablefield>
+      <editablefield>contentreadmoretargetwindow</editablefield>
+      <editablefield>captionheightoftheopenedcaption</editablefield>
+      <editablefield>captionwidthoftheopenedcaption</editablefield>
+      <editablefield>captionshowanimationeasing</editablefield>
+      <editablefield>captionhideanimationeasing</editablefield>
+      <editablefield>captionanimationeasing</editablefield>
+      <editablefield>captionwidthofthetitleinpx</editablefield>
+      <editablefield>captiontopcoordinateofthetag</editablefield>
+      <editablefield>captionhtmleditor</editablefield>
+      <editablefield>captionanimationinterval</editablefield>
+      <editablefield>captionopencaption</editablefield>
+      <editablefield>captioncontentwidth</editablefield>
+      <editablefield>captionfirstpropertytoanimate</editablefield>
+      <editablefield>captiontagfirstpropertystartvalue</editablefield>
+      <editablefield>captiontagfirstpropertytargetvalue</editablefield>
+      <editablefield>captioncontentfirstpropertystartvalue</editablefield>
+      <editablefield>captioncontentfirstpropertytargetvalue</editablefield>
+      <editablefield>captionsecondpropertytoanimate</editablefield>
+      <editablefield>captiontagsecondpropertystartvalue</editablefield>
+      <editablefield>captiontagsecondpropertytargetvalue</editablefield>
+      <editablefield>captioncontentsecondpropertystartvalue</editablefield>
+      <editablefield>captioncontentsecondpropertytargetvalue</editablefield>
+      <editablefield>captionthirdstaticproperty</editablefield>
+      <editablefield>captiontagthirdpropertyvalue</editablefield>
+      <editablefield>captioncontentthirdpropertyvalue</editablefield>
+      <editablefield>captiontaganimationinterval</editablefield>
+      <editablefield>captiontaganimationdelay</editablefield>
+      <editablefield>captiontaganimationeasing</editablefield>
+      <editablefield>captioncontentanimationinterval</editablefield>
+      <editablefield>captioncontentanimationdelay</editablefield>
+      <editablefield>captioncontentanimationeasing</editablefield>
+      <editablefield>captionanimationdelay</editablefield>
+      <editablefield>captiontop</editablefield>
+      <editablefield>contentimagewidth</editablefield>
+      <editablefield>contentimageheight</editablefield>
+    </editablefields>
+    
+    <deniedfields>    
+      <deniedfield>contentheadingurl</deniedfield>  
+    </deniedfields>
+    
+    <contentpositions>
+      <contentposition>Slide title</contentposition>
+      <contentposition>Content Heading</contentposition>
+      <contentposition>Content Heading url</contentposition>
+      <contentposition>Content Subheading</contentposition>
+      <contentposition>Content First tag url</contentposition>
+      <contentposition>Content First tag text</contentposition>
+      <contentposition>Content Second tag url</contentposition>
+      <contentposition>Content Second tag text</contentposition>
+      <contentposition>Content Third tag url</contentposition>
+      <contentposition>Content Third tag text</contentposition>
+      <contentposition>Content First column content</contentposition>
+      <contentposition>Content Second column content</contentposition>
+      <contentposition>Content Third column content</contentposition>
+      <contentposition>Content Read more url</contentposition>
+      <contentposition>Content Read more text</contentposition>
+      <contentposition>Content Link for image</contentposition>
+      <contentposition>Content Background image url</contentposition>
+      <contentposition>Content Image url</contentposition>
+    </contentpositions>
+    
+    <contentvalues>
+      <title type="content" insert="0">Title</title>
+      <alias type="content" insert="0">Alias</alias>
+      <introtext type="content" insert="0">Introtext</introtext>
+      <articleimage type="article_image" insert="1">First image of the article</articleimage>
+      <category type="article_category" insert="1">Category</category>
+      <createdby type="article_created_by" insert="1">Article created by</createdby>
+      <linktoarticle type="link_to_article" insert="1">Link to Article</linktoarticle>
+      <linktocategory type="link_to_category" insert="1">Link to Category</linktocategory>
+    </contentvalues>
+    
+    <captionpositions>
+    <captionposition>Caption Tag</captionposition>
+      <captionposition>Caption Caption Title</captionposition>
+      <captionposition>Caption Description</captionposition>
+      <captionposition>Caption Title</captionposition>
+    </captionpositions>
+    
+    <showcaptions>1</showcaptions>
+    <showtitle>1</showtitle>
+    
+    <defaultcontents>
+      <slidetitle>title</slidetitle>
+      <contentheading>title</contentheading>
+      <contentfirstcolumncontent>introtext</contentfirstcolumncontent>
+    </defaultcontents>
+    
+    <defaultcaptions>
+      <captioncaptiontitle>title</captioncaptiontitle>
+    </defaultcaptions>
+    
+  </settings>
+</config>

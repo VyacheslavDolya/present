@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <name>Horizontal type settings</name>
+  <params>
+    <param name="size" type="offlajncombine" label="Size" default="0|*|485||px|*|300||px">
+      <param type="offlajnradio" default="1" label="Mode">
+        <option value="0">Canvas</option>
+        <option value="1">Slider</option>
+      </param>
+      <param type="offlajntext" size="4" validation="int" label="Width">
+        <unit>px</unit>
+      </param>
+      <param type="offlajntext" size="4" validation="int" label="Height">
+        <unit>px</unit>
+      </param>
+    </param>
+    
+    <param name="mousescroll" type="offlajnonoff" default="1" label="Mouse scroll" description=""/>
+    <param name="showdots" type="offlajnlist" default="1" label="Subslide dots" description="">
+      <option value="0">Disabled</option>
+      <option value="1">Dots</option>
+      <option value="4">Dots with numbers</option>
+      <option value="2">Arrows</option>
+      <option value="3">Arrows with numbers</option>
+    </param>
+    
+    <param name="autoplay" type="offlajncombine" label="Autoplay" default="5000||ms|*|0|*|1">
+      <param type="offlajntext" size="4" validation="int" label="Interval">
+        <unit>ms</unit>
+      </param>
+      <param type="offlajnlist" label="Mode">
+        <option value="0">Stop autoplay on mouse enter</option>
+        <option value="1">Restart autoplay when mouse leave</option>
+        <option value="2">Never stop autoplay</option>
+      </param>
+      <param name="autoplay" type="offlajnswitcher" label="-" onoff="1">
+        <option value="1">ON</option>
+        <option value="0">OFF</option>
+      </param>
+    </param>
+    
+    
+    <param name="mainanimation" type="offlajncombine" label="Main animation" default="400||ms|*|dojo.fx.easing.cubicInOut">
+      <param type="offlajntext" size="4" validation="int" label="Interval">
+        <unit>ms</unit>
+      </param>
+      <param type="offlajneasing" hide_none="true" label="Easing"/>
+    </param>
+    
+    <param name="secondaryanimation" type="offlajncombine" label="Vertical animation" default="400||ms|*|dojo.fx.easing.cubicInOut">
+      <param type="offlajntext" size="4" validation="int" label="Interval">
+        <unit>ms</unit>
+      </param>
+      <param type="offlajneasing" hide_none="true" label="Easing"/>
+    </param>
+    
+    <param name="slidenumbering" type="offlajnonoff" default="1" label="Display slide numbers" description=""/>
+    <param name="slideicons" type="offlajnonoff" default="0" label="Display slide icons" description=""/>
+    <param name="shadow" type="offlajnimagemanager" default="" label="Slider shadow" description="" folder="/modules/mod_smartslider/images/shadows/" exclude="" stripext="" hide_default="true" />
+  </params>
+</config>

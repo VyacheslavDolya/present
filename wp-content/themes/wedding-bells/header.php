@@ -55,19 +55,21 @@
      <div class="description"><span class="swirl_left"><span class="swirl_right">15 june 2013</span></span></div>
     </div>
 
-	<div id="header">	
-		<?php if (get_option('wb_enable_slider')) { // Slider ?>
-		<div class="flexslider">
-			<ul class="slides">
-			<?php query_posts('post_type=slides&posts_per_page=-1'); ?>
-			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-				<li><?php the_post_thumbnail('slide-image'); ?></li>
-			<?php endwhile; endif; wp_reset_query(); ?>
-			</ul>
-		</div>		
-		<?php } else { // Regular header image ?>
-			<img src="<?php header_image(); ?>" alt="Header" />
-		<?php } ?>
+	<div id="header">
+    <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Slider')) : ?>
+        <?php if (get_option('wb_enable_slider')) { // Slider ?>
+            <div class="flexslider">
+                    <ul class="slides">
+                    <?php query_posts('post_type=slides&posts_per_page=-1'); ?>
+                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                            <li><?php the_post_thumbnail('slide-image'); ?></li>
+                    <?php endwhile; endif; wp_reset_query(); ?>
+                    </ul>
+            </div>		
+            <?php } else { // Regular header image ?>
+                    <img src="<?php header_image(); ?>" alt="Header" />
+            <?php } ?>
+    <?php endif; ?>
 		
 	</div><!-- #header -->
 <?php if(is_home() || is_front_page()):?>

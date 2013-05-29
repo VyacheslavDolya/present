@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.5" method="upgrade">
+    <name>Smart Slider</name>
+    <creationDate>Aug 2011</creationDate>
+    <author>Roland Soós</author>
+    <authorUrl>http://www.nextendweb.com</authorUrl>
+    <copyright>Copyright (C) 2009-2013 Nextendweb.com. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>4.1.2</version>
+		<media folder="" destination="../images/smartslider/">
+  		<folder>slidericons</folder>
+    </media>
+    
+    <files folder="frontend">
+	     <filename>index.html</filename>
+	  </files>
+	  
+    <administration>
+    		<menu link="option=com_smartslider" img="components/com_smartslider/images/adminsmall.png">COM_SMARTSLIDER_MENU</menu>
+
+        <files folder="">
+            <filename>index.html</filename>
+            <filename>install.xml</filename>
+            <filename>install.php</filename>
+            <filename>install.sql</filename>
+            <filename>install15.sql</filename>
+            <filename>install16.sql</filename>
+            <filename>controller.php</filename>
+            <filename>smartslider.php</filename>
+            <filename>style.css</filename>
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <folder>extensions</folder>
+            <folder>controllers</folder>
+            <folder>forms</folder>
+            <folder>models</folder>
+            <folder>params</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+            <folder>images</folder>
+            <folder>buttons</folder>
+            <folder>language</folder>
+            <folder>js</folder>
+        </files>
+        
+        <languages folder="">
+    			<language tag="en-GB">language/en-GB/en-GB.com_smartslider.ini</language>
+    			<language tag="en-GB">language/en-GB/en-GB.com_smartslider.sys.ini</language>
+    			<language tag="en-GB">language/en-GB/en-GB.plg_system_smartslidertabber.ini</language>
+    		</languages>
+    </administration>
+</extension>

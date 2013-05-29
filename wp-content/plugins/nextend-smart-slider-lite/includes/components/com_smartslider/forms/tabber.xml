@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <name>Tabber Configuration XML</name>
+  <params addPath="/administrator/components/com_smartslider/oldparams">
+    <field name="update" type="offlajndashboard" label="-"/>
+    <param name="name" type="offlajntext" default="" label="Tabber Name" description="The name of the Tabber"/>
+    <param name="published" type="offlajnonoff" default="1" label="Published" description=""/>
+    <param name="addslides" type="text" default="1" label="Add tabs (number)" description=""/>
+    <param name="random" type="offlajnonoff" default="0" label="Randomize tabs" description=""/>
+    <param name="cache" label="Cache" type="offlajncombine" default="0|*|1">
+      <param type="offlajnonoff" label="Cache" />
+      <param type="offlajntext" size="3" validation="int" scale="60" label="Expire">
+        <unit>min</unit>
+      </param>
+    </param>
+    
+    <param name="type" type="offlajnslidertype" default="accordionHorizontal" label="Slider Type" description="The type of the Tabber"/>
+  </params>
+  <params addPath="/administrator/components/com_smartslider/params" group="generator">
+    <param name="generator" type="offlajnslidegenerator" default="choose" label="Tab generator" description="Slidegenerator"/>
+  </params>
+</config>

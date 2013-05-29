@@ -1,0 +1,5 @@
+#nextend-configurator-lightbox .pane-sliders .nextendpanel h3.offlajnloading{
+  background-image: url('../images/loading.gif');
+  background-repeat: no-repeat;
+  background-position: 95% center;;
+}

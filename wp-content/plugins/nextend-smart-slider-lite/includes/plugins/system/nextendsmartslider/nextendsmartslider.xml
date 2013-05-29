@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+	<name>Nextend Smart Slider - Responsive</name>
+	<description></description>
+	<version>1.0.0</version>
+	<creationDate>Jan 2013</creationDate>
+	<author>Roland Soos</author>
+	<authorEmail>roland.soos@offlajn.com</authorEmail>
+	<authorUrl>http://www.nextendweb.com</authorUrl>
+	<copyright>Copyright (C) 2013 Nextendweb.com. All rights reserved.</copyright>
+  <license>GNU General Public License</license>
+
+	<!-- Files -->
+	<files>
+		<filename plugin="nextendsmartslider">nextendsmartslider.php</filename>
+	</files>
+
+	<!-- Parameters -->
+	<params></params>
+</install>
