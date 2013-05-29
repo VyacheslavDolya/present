@@ -457,6 +457,9 @@ h3.widgettitle {
 .widget {
 	margin-bottom: 25px;
 }
+li.widget {
+	list-style: none;
+}
 .widget p {
 	font-size: 1.3em;
 	line-height: 20px;
