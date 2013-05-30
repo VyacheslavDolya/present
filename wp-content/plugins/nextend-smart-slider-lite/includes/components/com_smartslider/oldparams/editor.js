@@ -49,8 +49,10 @@ dojo.declare("SlideEditor", null, {
 
     dojo.forEach(html[4], function(fieldid, i){
       this.fields[i] = dojo.byId('param'+fieldid);
-      this.fields[i].changeFieldinTemplate = dojo.hitch(this, 'changeFieldinTemplate');
-      this.fields[i].reparse = dojo.connect(this.fields[i], 'onchange', this, 'changeFieldinTemplate');
+      if(this.fields[i]){
+        this.fields[i].changeFieldinTemplate = dojo.hitch(this, 'changeFieldinTemplate');
+        this.fields[i].reparse = dojo.connect(this.fields[i], 'onchange', this, 'changeFieldinTemplate');
+      }
     }, this);
     
     this.editashtml = dojo.byId(html[6]);

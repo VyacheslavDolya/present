@@ -44,7 +44,8 @@ body {
         font-family:Arial,Helvetica,sans-serif;
 }
 .wrapper{
-    background-image: url("./images/top_bg.jpg");
+    /*background-image: url("./images/top_bg.jpg");*/
+    background-color: #ff4040;
     background-repeat: repeat-x;
 }
 a {
@@ -109,8 +110,8 @@ h6 { font-size: 1.3em; }
     font-family: 'Great Vibes',cursive;
     font-size: 72px;
     margin: 0;
-    padding: 55px 0 10px;
-    text-align: center;
+    padding: 55px 0 0 50px;
+    text-align: left;
 }
 .names .title a{
     color:#4C402B;
@@ -164,7 +165,7 @@ h6 { font-size: 1.3em; }
 
 #nav li a:hover,
 #nav li.current_page_item a {
-	color: #E8A900;
+	color: black;
 	text-decoration: none;
 	background-color: rgb(243, 247, 253);
 	background-color: rgba(255, 255, 255, 0.4);

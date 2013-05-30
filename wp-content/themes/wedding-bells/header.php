@@ -51,7 +51,7 @@
     
 
     <div class="names">
-     <div class="title"><a href="<?php echo home_url(); ?>">Michael &amp; Sarah</a></div>
+     <div class="title"><a href="<?php echo home_url(); ?>">Dmitry &amp; Alexandra</a></div>
      <div class="description"><span class="swirl_left"><span class="swirl_right">15 june 2013</span></span></div>
     </div>
 

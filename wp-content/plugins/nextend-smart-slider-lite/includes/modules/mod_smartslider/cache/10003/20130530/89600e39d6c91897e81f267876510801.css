@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css?family=Open Sans:700|PT Sans:700,400italic,400|Source Sans Pro:700,400');
 
 div#mod_smartslider_10003 div,
 div#mod_smartslider_10003 dl,
@@ -85,43 +86,42 @@ div#mod_smartslider_10003 div div .sslide a{
 
 #mod_smartslider_10003 .shadow{
   width: 900px;
-  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/2d4eeeb3cde0efdb98ee9fcd9caefcde.png') no-repeat;
+  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/2d4eeeb3cde0efdb98ee9fcd9caefcde.png') no-repeat;
   height: 25px;
 }
 
 #mod_smartslider_10003 .outer{
   border-radius: 1px 1px 1px 1px ;
   /* Alpha channel*/
-      background-color: #;
-    background-color: rgba(0, 0, 0, 0);
+      background-color: #ff4040;
+    background-color: rgba(255, 64, 64, 1);
         /* Alpha channel*/
-  width: 900px;
-  height: 600px;
-  padding: px px px px;
+  width: 888px;
+  height: 388px;
+  padding: 6px 6px 6px 6px;
 }
 
 .dj_ie7 #mod_smartslider_10003 .outer{
-  background-color: #;
+  background-color: #ff4040;
 }
 
 #mod_smartslider_10003 .slinner{
-  width: 900px;
-  height: 600px;
+  width: 882px;
+  height: 382px;
   /* Alpha channel*/
-      background-color: #;
-    background-color: rgba(0, 0, 0, 0);
-        /* Alpha channel*/
-  padding: px px px px;
+    background-color: #222222;
+    /* Alpha channel*/
+  padding: 3px 3px 3px 3px;
   overflow: hidden;
 }
 
 .dj_ie7 #mod_smartslider_10003 .slinner{
-  background-color: #;
+  background-color: #222222;
 }
 
 #mod_smartslider_10003 dl{
-  width: 1000px;
-  height: 600px;
+  width: 982px;
+  height: 382px;
   float:left;
 }
 
@@ -129,41 +129,39 @@ div#mod_smartslider_10003 div div .sslide a{
 #mod_smartslider_10003 dt.sslide{
   position: relative;
   width: 32px;
-  height: 590px !important;
+  height: 372px !important;
   float:left;
   background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/types/accordionHorizontal/joyful/images/black10.png') repeat;
   /* Alpha channel*/
-      background-color: #;
-    background-color: rgba(0, 0, 0, 0);
-        /* Alpha channel*/
+    background-color: #3E3E3E;
+    /* Alpha channel*/
   cursor: pointer;
   margin: 2px 0px 2px 2px;
   padding: 3px 3px 3px 3px;
 }
 
 .dj_ie7 #mod_smartslider_10003 dt.sslide{
-  background-color: #;
+  background-color: #3E3E3E;
 }
 
 #mod_smartslider_10003 dt .slideinner{
   float: left;
   width: 32px;
-  height: 590px;
+  height: 372px;
   /* Alpha channel*/
-      background-color: #;
-    background-color: rgba(0, 0, 0, 0);
-        /* Alpha channel*/
+    background-color: #3E3E3E;
+    /* Alpha channel*/
   display: block;
 }
 
 .dj_ie7 #mod_smartslider_10003 dt .slideinner{
-  background-color: #;
+  background-color: #3E3E3E;
 }
 
 #mod_smartslider_10003 dt .slidepattern{
   position: relative;
   width: 38px;
-  height: 596px;
+  height: 378px;
   background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/types/accordionHorizontal/joyful/images/pattern.png') repeat;
   overflow: hidden;
   z-index: 3;
@@ -179,8 +177,8 @@ div#mod_smartslider_10003 div div .sslide a{
   transform: rotate(-90deg);
   zoom: 1;
 
-  height: 586px;
-  width: 586px;
+  height: 368px;
+  width: 368px;
   display: block;
   margin: 5px;
   float:left;
@@ -202,7 +200,15 @@ div#mod_smartslider_10003 div div .sslide a{
   text-align: left;
   
   /*font chooser*/
-    /*font chooser*/
+  font-family: 'Open Sans',Arial, Helvetica;
+font-size: 14px;
+color: #e4eaee;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+line-height: 28px;
+  /*font chooser*/
   line-height: 28px;
 }
 
@@ -210,33 +216,31 @@ div#mod_smartslider_10003 div div .sslide a{
 .dj_ie8 #mod_smartslider_10003 dt.sslide .title{
   background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/types/accordionHorizontal/joyful/images/patternrot90.png') repeat;
   /* Alpha channel*/
-      background-color: #;
-        /* Alpha channel*/
+    background-color: #3E3E3E;
+    /* Alpha channel*/
 }
 
 #mod_smartslider_10003 dt.selected, #mod_smartslider_10003 dt.sslide:HOVER{
   background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/types/accordionHorizontal/joyful/images/black20.png') repeat;
   /* Alpha channel*/
-      background-color: #;
-    background-color: rgba(0, 0, 0, 0);
-        /* Alpha channel*/
+    background-color: #188DD9;
+    /* Alpha channel*/
 }
 
 .dj_ie7 #mod_smartslider_10003 dt.selected, 
 .dj_ie7 #mod_smartslider_10003 dt.sslide:HOVER{
-  background-color: #;
+  background-color: #188DD9;
 }
 
 #mod_smartslider_10003 dt.selected .slideinner, #mod_smartslider_10003 dt.sslide:HOVER .slideinner{
   /* Alpha channel*/
-      background-color: #;
-    background-color: rgba(0, 0, 0, 0);
-        /* Alpha channel*/
+    background-color: #188DD9;
+    /* Alpha channel*/
 }
 
 .dj_ie7 #mod_smartslider_10003 dt.selected .slideinner, 
 .dj_ie7 #mod_smartslider_10003 dt.sslide:HOVER .slideinner{
-  background-color: #;
+  background-color: #188DD9;
 }
 
 
@@ -245,13 +249,21 @@ div#mod_smartslider_10003 div div .sslide a{
 .dj_ie7 #mod_smartslider_10003 dt.sslide:HOVER .title,
 .dj_ie8 #mod_smartslider_10003 dt.sslide:HOVER .title{
   /* Alpha channel*/
-      background-color: #;
-        /* Alpha channel*/
+    background-color: #188DD9;
+    /* Alpha channel*/
 }
 
 #mod_smartslider_10003 dt.sslide.selected .title, #mod_smartslider_10003 dt.sslide:HOVER .title{
   /*font chooser*/
-    /*font chooser*/
+  font-family: 'Open Sans',Arial, Helvetica;
+font-size: 14px;
+color: #222222;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+line-height: 28px;
+  /*font chooser*/
   line-height: 28px;
 }
 
@@ -314,14 +326,13 @@ div#mod_smartslider_10003 div div .sslide a{
 
 #mod_smartslider_10003 dt.sslide .dots .circle.active{
   /* Alpha channel*/
-      background-color: #;
-    background-color: rgba(0, 0, 0, 0);
-        /* Alpha channel*/
+    background-color: #188DD9;
+    /* Alpha channel*/
   font-weight: bold;
 }
 
 .dj_ie7 #mod_smartslider_10003 dt.sslide .dots .circle.active{
-  background-color: #;
+  background-color: #188DD9;
 }
 
 /*Arrows*/
@@ -394,7 +405,15 @@ div#mod_smartslider_10003 div div .sslide a{
  /* box-shadow: 0px 0.5px 1px rgba(255, 255, 255, 0.4) inset;*/
   padding: 7px 0 7px 0;
    /*font chooser*/
-    /*font chooser*/
+  font-family: 'Open Sans',Arial, Helvetica;
+font-size: 11px;
+color: #FFFFFF;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+line-height: normal;
+  /*font chooser*/
   text-align: center;
 }
 
@@ -407,13 +426,29 @@ div#mod_smartslider_10003 div div .sslide a{
     background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/types/accordionHorizontal/joyful/images/black20.png') repeat;
 
   /*font chooser*/
+font-family: 'Open Sans',Arial, Helvetica;
+font-size: 14px;
+color: #e4eaee;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+line-height: 28px;
   /*font chooser*/
   text-align: center;
 }
 
 #mod_smartslider_10003 dt.sslide.selected .numbering, #mod_smartslider_10003 dt.sslide:HOVER .numbering{
   /*font chooser*/
-    /*font chooser*/
+  font-family: 'Open Sans',Arial, Helvetica;
+font-size: 14px;
+color: #222222;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+line-height: 28px;
+  /*font chooser*/
   text-align: center;
 }
 
@@ -435,7 +470,7 @@ div#mod_smartslider_10003 div div .sslide a{
 
 #mod_smartslider_10003 dd.sslide{
   position: relative;
-  height: 596px;
+  height: 378px;
   width: 0px;
   float: left;
   margin: 2px 2px 2px -2px;
@@ -453,7 +488,7 @@ div#mod_smartslider_10003 div div .sslide a{
 }
 
 #mod_smartslider_10003 dd.sslide.selected{
-  width: 816px;
+  width: 798px;
 }
 
 #mod_smartslider_10003 dd.sslide .arrowdown{
@@ -504,15 +539,15 @@ div#mod_smartslider_10003 div div .sslide a{
   padding: 0;
   position: relative;
   display:block;
-  height: 596px;
-  width: 816px;
+  height: 378px;
+  width: 798px;
   float: left;
   overflow: hidden;
 }
 
 #mod_smartslider_10003 dd.sslide .canvas{
-  height: 596px;
-  width: 816px;
+  height: 378px;
+  width: 798px;
   float: left;
   overflow: hidden;
   position: absolute;
@@ -566,7 +601,7 @@ div#mod_smartslider_10003 div div .sslide a{
 #mod_smartslider_10003 .sslide .caption .fromright .opener{
  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/types/accordionHorizontal/joyful/../../../captions/images/captionrightplus.png') no-repeat 0 0px;
  position: absolute;
- top:524px;
+ top:306px;
  left: 0;
  width: 29px;
  height: 42px;
@@ -579,25 +614,52 @@ div#mod_smartslider_10003 div div .sslide a{
 }
 
 #mod_smartslider_10003 .sslide .caption .fromright .content{
-  height: 566px;
+  height: 348px;
   background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/types/accordionHorizontal/joyful/../../../captions/images/black50.png') repeat;
   padding: 15px 10px;
 }
 
 #mod_smartslider_10003 .sslide .caption .fromright h3{
-    margin: 0 0 5px;
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 24px;
+color: #ffffff;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 1px 1px #000000;
+line-height: 24px;
+  margin: 0 0 5px;
 }
 
 #mod_smartslider_10003 .sslide .caption .fromright p,
 #mod_smartslider_10003 .sslide .caption .frombottom p{
   text-align: left;
-  }
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 13px;
+color: #FFFFFF;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 1px 1px #000000;
+line-height: 15px;
+}
 
 #mod_smartslider_10003 .sslide .caption .fromright a,
 #mod_smartslider_10003 .sslide .caption .frombottom a, 
 #mod_smartslider_10003 .sslide .caption .simple a {
   text-align: left;
-  }
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 13px;
+color: #FFFFFF;
+font-weight: normal;
+font-style: normal;
+text-decoration: underline;
+text-align: left;
+text-shadow: 1px 1px 1px #000000;
+line-height: 15px;
+}
 
 
 #mod_smartslider_10003 .sslide .caption .frombottom{
@@ -629,15 +691,24 @@ div#mod_smartslider_10003 div div .sslide a{
 #mod_smartslider_10003 .sslide .caption .frombottom .content{
   position: relative;
   width: 100%;
-  width: 796px;
-  left: -816px;
+  width: 778px;
+  left: -798px;
   height: 0px;
   background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/types/accordionHorizontal/joyful/../../../captions/images/black50.png') repeat;
   padding: 8px 10px;
 }
 
 #mod_smartslider_10003 .sslide .caption .frombottom h3{
-    margin: 0 0 5px;
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 24px;
+color: #ffffff;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 1px 1px #000000;
+line-height: 24px;
+  margin: 0 0 5px;
 }
 
 #mod_smartslider_10003 .sslide .caption .simple{
@@ -654,9 +725,8 @@ div#mod_smartslider_10003 div div .sslide a{
   margin: 0;
   display: inline;
   /* Alpha channel*/
-      background-color: #;
-    background-color: rgba(0, 0, 0, 0);
-        /* Alpha channel*/
+    background-color: #188DD9;
+    /* Alpha channel*/
   padding: 1px 10px;
   color: #fff;
   font-family: Arial;
@@ -666,7 +736,7 @@ div#mod_smartslider_10003 div div .sslide a{
   }
 
 .dj_ie7 #mod_smartslider_10003 .sslide .caption .simple h4{
-  background-color: #;
+  background-color: #188DD9;
 }
 
 #mod_smartslider_10003 .sslide .caption .simple h3{
@@ -674,7 +744,16 @@ div#mod_smartslider_10003 div div .sslide a{
   display: block;
   padding: 11px 10px;
   white-space:nowrap;
-  }
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 24px;
+color: #ffffff;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 1px 1px #000000;
+line-height: 24px;
+}
 
 #mod_smartslider_10003 .sslide .caption .simple .h3{
   position: absolute;
@@ -685,7 +764,16 @@ div#mod_smartslider_10003 div div .sslide a{
 #mod_smartslider_10003 .sslide .caption .simple p{
   margin: 0;
   padding: 0px 10px 11px;
-  }
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 13px;
+color: #FFFFFF;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 1px 1px #000000;
+line-height: 15px;
+}
 
 
 #mod_smartslider_10003 .sslide .caption .smartcaption{
@@ -704,18 +792,26 @@ div#mod_smartslider_10003 div div .sslide a{
   margin: 0;
   display: inline;
   /* Alpha channel*/
-      background-color: #;
-    background-color: rgba(0, 0, 0, 0);
-        /* Alpha channel*/
+    background-color: #188DD9;
+    /* Alpha channel*/
   padding: 1px 10px;
   text-transform:uppercase;
-    
-  line-height: 0px;
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 11px;
+color: #FFFFFF;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 1px 1px #000000;
+line-height: 13px;
+  
+  line-height: 14.3px;
 }
 
 .dj_ie7 #mod_smartslider_10003 .sslide .caption .smartcaption div.caption-h4,
 .dj_ie7 #mod_smartslider_10003 .sslide .caption .smartcaption h4{
-  background-color: #;
+  background-color: #188DD9;
 }
 
 #mod_smartslider_10003 .sslide .caption .smartcaption div.caption-h3,
@@ -726,7 +822,16 @@ div#mod_smartslider_10003 div div .sslide a{
   display: block;
   padding: 11px 10px;
   background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/types/accordionHorizontal/joyful/../../../captions/images/black70.png') repeat;
-  }
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 24px;
+color: #ffffff;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 1px 1px #000000;
+line-height: 24px;
+}
 #mod_smartslider_10003 .sslide .caption{
     width: 100%;
     height: 100%;
@@ -750,13 +855,25 @@ div#mod_smartslider_10003 div div .sslide a{
 
 #mod_smartslider_10003 .sslide .caption .defaultcaption-title{
     margin: 4% 2% 0 5%;
-        padding: 8px;
+    font-family: 'Source Sans Pro';
+font-size: 30px;
+color: #ffffff;
+font-weight: bold;
+text-shadow: 1px 1px 1px #666666;
+line-height: 30px;
+    padding: 8px;
     z-index: 7;
     }
 
 #mod_smartslider_10003 .sslide .caption .defaultcaption-description{
     margin: 2px 2% 0 5%;
-        padding: 8px;
+    font-family: 'Source Sans Pro';
+font-size: 16px;
+color: #ffffff;
+font-weight: normal;
+text-shadow: 1px 1px 1px #666666;
+line-height: 24px;
+    padding: 8px;
     max-width: 90%;
     z-index: 6;
     
@@ -771,7 +888,7 @@ div#mod_smartslider_10003 div div .sslide a{
 
 #mod_smartslider_10003 .canvas{
   /* Alpha channel*/
-    background-color: #;
+    background-color: #ffffff;
     /* Alpha channel*/
 }
 
@@ -780,23 +897,47 @@ div#mod_smartslider_10003 div div .sslide a{
 #mod_smartslider_10003 .canvas a:active,
 #mod_smartslider_10003 .canvas a:hover{
   text-decoration: none;
-  }
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 14px;
+color: #188dd9;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+line-height: 14px;
+}
 
 #mod_smartslider_10003 .column{
   margin: 15px 25px 15px;
   position: relative;
-  height: 566px;
+  height: 348px;
   float: none;
 }
 
 #mod_smartslider_10003 .column h3, 
 #mod_smartslider_10003 .column h3 a{
   margin: 0;
-  }
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 30px;
+color: #188DD9;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+line-height: 30px;
+}
 
 #mod_smartslider_10003 .column h4{
   margin: 5px 0 0 0;
-  }
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 15px;
+color: #3e3e3e;
+font-weight: normal;
+font-style: italic;
+text-decoration: none;
+text-align: left;
+line-height: 15px;
+}
 
 #mod_smartslider_10003 .column .tags{
   position: absolute;
@@ -818,7 +959,16 @@ div#mod_smartslider_10003 div div .sslide a{
 #mod_smartslider_10003 .column .tags span{
   height: 23px;
   display: block;
-    line-height: 23px;
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 12px;
+color: #e4eaee;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 1px 1px #000000;
+line-height: 23px;
+  line-height: 23px;
 }
 
 .dj_ie7 #mod_smartslider_10003 .column .tags span span,
@@ -834,17 +984,17 @@ div#mod_smartslider_10003 div div .sslide a{
 
 
 #mod_smartslider_10003 .column .tags li{
-  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/ba410d394c0d6cff5fecd5bf9fc6a83e.png') no-repeat 0 -52px;
+  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/b1662ba90765fce407f9827601368e83.png') no-repeat 0 -52px;
   padding-left: 14px;
 }
 
 #mod_smartslider_10003 .column .tags li span{
-  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/ba410d394c0d6cff5fecd5bf9fc6a83e.png') no-repeat right -26px;
+  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/b1662ba90765fce407f9827601368e83.png') no-repeat right -26px;
   padding-right: 4px;
 }
 
 #mod_smartslider_10003 .column .tags li span > span{
-  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/ba410d394c0d6cff5fecd5bf9fc6a83e.png') repeat-x 0 -1px;
+  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/b1662ba90765fce407f9827601368e83.png') repeat-x 0 -1px;
   padding: 0 5px;
 }
 
@@ -859,7 +1009,15 @@ div#mod_smartslider_10003 div div .sslide a{
 
 #mod_smartslider_10003 .column p{
   margin: 0;
-  }
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 14px;
+color: #3e3e3e;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+line-height: 14px;
+}
 
 #mod_smartslider_10003 .twocolumn p.col50.col1{
   float: left;
@@ -911,13 +1069,21 @@ div#mod_smartslider_10003 div div .sslide a{
 #mod_smartslider_10003 .column a.readmore:HOVER,
 #mod_smartslider_10003 .column a.readmore:ACTIVE,
 #mod_smartslider_10003 .column a.readmore:VISITED{
-  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/d565ed6e609e1379a39b6eceaf7245e9.png') no-repeat left center;
+  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/28c4d13b61f6b7d1cd355d2eb7f586e5.png') no-repeat left center;
   background-size: contain;
   padding: 0 0 1px 20px;
   float: left;
   margin-top:6px;
   border: 0;
-  }
+  font-family: Verdana, Arial, Helvetica;
+font-size: 11px;
+color: #188DD9;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+line-height: 13px;
+}
 
 #mod_smartslider_10003 .rightimage .col1{
   float: left;
@@ -955,25 +1121,34 @@ div#mod_smartslider_10003 div div .sslide a{
 
 #mod_smartslider_10003 .column .readmorebig, #mod_smartslider_10003 .column .readmorebig span{
   display: block;
-    line-height: 31px;
+  font-family: 'PT Sans',Arial, Helvetica;
+font-size: 12px;
+color: #e4eaee;
+font-weight: bold;
+font-style: normal;
+text-decoration: none;
+text-align: left;
+text-shadow: 1px 1px 1px #000000;
+line-height: 13px;
+  line-height: 31px;
 }
 
 #mod_smartslider_10003 .column .readmorebig{
  position:absolute;
  bottom: 10px;
  right: 0;
- background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/729ea69204c169dd39c1890747e15b49.png') no-repeat 0 -62px;
- background-image: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/729ea69204c169dd39c1890747e15b49.png');
+ background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/98db7660f17e6ab8411abf327b96d94e.png') no-repeat 0 -62px;
+ background-image: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/98db7660f17e6ab8411abf327b96d94e.png');
  padding-left: 8px;
 }
 
 #mod_smartslider_10003 .column .readmorebig span{
- background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/729ea69204c169dd39c1890747e15b49.png') no-repeat right -31px;
+ background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/98db7660f17e6ab8411abf327b96d94e.png') no-repeat right -31px;
  padding-right: 28px;
 }
 
 #mod_smartslider_10003 .column .readmorebig span > span{
- background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/729ea69204c169dd39c1890747e15b49.png') repeat-x;
+ background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/98db7660f17e6ab8411abf327b96d94e.png') repeat-x;
  text-align: center;
  padding: 0 5px;
  text-transform: uppercase;
@@ -1014,7 +1189,7 @@ div#mod_smartslider_10003 div div .sslide a{
 #mod_smartslider_10003 .quotes.centerquote .quotemark_b {
   width: 102px;
   height: 82px;
-  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/b248b29b46592a01206b903ce299b98f.png') no-repeat;
+  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/783d232a691098c77c02c34d9a3f46b0.png') no-repeat;
   float: left;
   margin-right: 5px;
 }
@@ -1052,7 +1227,7 @@ div#mod_smartslider_10003 div div .sslide a{
 
 #mod_smartslider_10003 .quotes.leftimage .col2 .quote_text,
 #mod_smartslider_10003 .quotes.rightimage .col1 .quote_text {
-  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/fed92f6137dae26921ada41021d69cdc.png') no-repeat center center;
+  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/3dc15955d330130a498f88ff7ec6d2bb.png') no-repeat center center;
   height: 184px;
   display: table;
   min-width: 234px;
@@ -1087,7 +1262,7 @@ div#mod_smartslider_10003 div div .sslide a{
 #mod_smartslider_10003 .quotes.rightimage_s .col1 .quotemark_s {
   width: 80px;
   height: 64px;
-  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130529/4d1b289653d72041e97e8408a688bbbc.png') no-repeat;
+  background: url('http://localhost/present/wp-content/plugins/nextend-smart-slider-lite/includes/modules/mod_smartslider/cache/10003/20130530/28b6fc8889070ef80b88f497c3d63cdf.png') no-repeat;
   float: left;
   margin-right: 5px;
 }
