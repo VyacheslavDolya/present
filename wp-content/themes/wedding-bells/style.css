@@ -9,6 +9,16 @@ Tags: light, blue, white, two-columns, custom-header, threaded-comments
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+.clearBoth{
+    clear: both;
+}
+
+@font-face
+{
+font-family: Kunstler;
+src: url('./fonts/Kunstler.ttf'); /* IE9 */
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -103,14 +113,24 @@ h6 { font-size: 1.3em; }
 }
 .names{
     background: url("images/header_texture.jpg") no-repeat scroll center top transparent;
-    height: 190px;
+    padding: 10px 0;
+}
+.names table{
     width: 100%;
 }
+.names .left{
+        width: 60%;
+        vertical-align: middle;
+}
+.names .right
+{
+    width: 40%;
+}
 .names .title{
-    font-family: 'Great Vibes',cursive;
-    font-size: 72px;
+    font-family: 'Kunstler',cursive;
+    font-size: 82px;
     margin: 0;
-    padding: 55px 0 0 50px;
+    padding: 0 0 0 50px;
     text-align: left;
 }
 .names .title a{
@@ -132,6 +152,13 @@ h6 { font-size: 1.3em; }
 .names .description .swirl_right{
     background: url("images/swirl_right.png") no-repeat scroll right center transparent;
     padding: 0 50px 0 0;
+}
+
+.names .gerb img{
+    height: 205px;
+    width: 225px;
+    position: relative;
+    margin: 0 17%;
 }
 /* menu styles */
 #navrow {

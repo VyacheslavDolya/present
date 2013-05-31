@@ -51,8 +51,25 @@
     
 
     <div class="names">
-     <div class="title"><a href="<?php echo home_url(); ?>">Dmitry &amp; Alexandra</a></div>
-     <div class="description"><span class="swirl_left"><span class="swirl_right">15 june 2013</span></span></div>
+        <table>
+            <tr>
+                <td class="left">
+                    <div class="title">
+                        <a href="<?php echo home_url(); ?>">Dmitry & Alexandra</a>
+                    </div>
+                    <div class="description">
+                        <span class="swirl_left">
+                            <span class="swirl_right">15 june 2013</span>
+                        </span>
+                    </div>
+                </td>
+                <td class="right">
+                    <div class="gerb">
+                        <img src="<?php echo bloginfo('template_directory'); ?>/images/logo.png" alt="Dmitry & Alexandra"/>
+                   </div>
+                </td>
+            </tr>
+        </table>
     </div>
 
 	<div id="header">
