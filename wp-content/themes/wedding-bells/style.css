@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @font-face
 {
 font-family: Kunstler;
-src: url('./fonts/Kunstler.ttf'); /* IE9 */
+src: url('./fonts/Kunstler.ttf'),url('./fonts/Kunstler.eot');
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -127,7 +127,7 @@ h6 { font-size: 1.3em; }
     width: 40%;
 }
 .names .title{
-    font-family: 'Kunstler',cursive;
+    font-family: 'Kunstler','Ovo';
     font-size: 82px;
     margin: 0;
     padding: 0 0 0 50px;
