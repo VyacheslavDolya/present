@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS `sk_comments` (
 
 INSERT INTO `sk_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `comment_author_email`, `comment_author_url`, `comment_author_IP`, `comment_date`, `comment_date_gmt`, `comment_content`, `comment_karma`, `comment_approved`, `comment_agent`, `comment_type`, `comment_parent`, `user_id`) VALUES
 (1, 1, 'Mr WordPress', '', 'http://wordpress.org/', '', '2013-05-13 19:08:08', '2013-05-13 19:08:08', 'Hi, this is a comment.\nTo delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.', 0, '1', '', '', 0, 0),
-(2, 2, 'dima', 'vyacheslav.dolya@gmail.com', '', '::1', '2013-05-13 20:24:41', '2013-05-13 20:24:41', 'hgfhfg', 0, '1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0', '', 0, 1),
+(2, 2, 'dima', 'admin@gmail.com', '', '::1', '2013-05-13 20:24:41', '2013-05-13 20:24:41', 'hgfhfg', 0, '1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0', '', 0, 1),
 (3, 2, 'Bla', 'test@gmail.com', 'http://dsfsdfsdfsdfsd', '::1', '2013-05-13 20:25:07', '2013-05-13 20:25:07', 'fgdgfdgfddsfgsdgsjkd dsfudshufhsdghf sf sdgfusdgfsd', 0, '0', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31', '', 0, 0);
 
 -- --------------------------------------------------------
@@ -122,7 +122,7 @@ INSERT INTO `sk_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (2, 'blogname', 'Wedding', 'yes'),
 (3, 'blogdescription', 'Just another WordPress site', 'yes'),
 (4, 'users_can_register', '0', 'yes'),
-(5, 'admin_email', 'vyacheslav.dolya@gmail.com', 'yes'),
+(5, 'admin_email', 'admin@gmail.com', 'yes'),
 (6, 'start_of_week', '1', 'yes'),
 (7, 'use_balanceTags', '0', 'yes'),
 (8, 'use_smilies', '1', 'yes'),
@@ -471,7 +471,7 @@ CREATE TABLE IF NOT EXISTS `sk_users` (
 --
 
 INSERT INTO `sk_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'dima', '$P$BlfKCBUmYxVnHRJ1/2nSpn4TgjwW9Y1', 'dima', 'vyacheslav.dolya@gmail.com', '', '2013-05-13 19:08:08', '', 0, 'dima');
+(1, 'dima', '$P$BlfKCBUmYxVnHRJ1/2nSpn4TgjwW9Y1', 'dima', 'admin@gmail.com', '', '2013-05-13 19:08:08', '', 0, 'dima');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
